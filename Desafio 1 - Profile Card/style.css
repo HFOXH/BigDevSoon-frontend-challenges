@@ -1,0 +1,19 @@
+.bg-window {
+    background-color: #eff3c0;
+}
+
+.bg-pink-color {
+    background-color: #e03f8d;
+}
+
+.bg-card-part-img {
+    background-color: #98314f;
+}
+
+#wave {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
