@@ -20,12 +20,12 @@
     <div class="max-w-[1200px] mx-auto">
         <div class="grid grid-cols-3 gap-4 items-start">
             <div class="flex flex-col items-end space-y-2">
-                <img class="w-20" src="https://santic.netlify.app/assets/img-challenge/Rectangle%202.png" alt="camisa frontal">
-                <img class="w-20" src="https://santic.netlify.app/assets/img-challenge/Rectangle3.png" alt="camisa de lado">
-                <img class="w-20" src="https://santic.netlify.app/assets/img-challenge/Rectangle1.png" alt="camisa detras">
+                <img class="w-20 cursor-pointer thumb" src="https://santic.netlify.app/assets/img-challenge/Rectangle%202.png" alt="camisa frontal">
+                <img class="w-20 cursor-pointer thumb" src="https://santic.netlify.app/assets/img-challenge/Rectangle3.png" alt="camisa de lado">
+                <img class="w-20 cursor-pointer thumb" src="https://santic.netlify.app/assets/img-challenge/Rectangle1.png" alt="camisa detras">
             </div>
             <div class="w-full">
-                <img class="rounded-md w-full h-full object-cover" src="https://santic.netlify.app/assets/img-challenge/Rectangle%202.png" alt="camisa frontal">
+                <img id="main-image" class="rounded-md w-full h-full object-cover" src="https://santic.netlify.app/assets/img-challenge/Rectangle%202.png" alt="camisa frontal">
             </div>
             <div class="w-full">
                 <p class="uppercase text-blue-500 text-[12px] font-bold">polo ralph</p>
@@ -37,18 +37,18 @@
                 </div>
                 <p class="text-neutral-400 line-through text-[12px]">$132.00</p>
                 <p class="uppercase my-4 font-bold">CHOOSE SIZE</p>
-                <div class="flex space-x-2">
-                    <button class="uppercase p-2">S</button>
-                    <button class="uppercase p-2 text-white bg-black">M</button>
-                    <button class="uppercase p-2">L</button>
-                    <button class="uppercase p-2">XL</button>
-                    <button class="uppercase p-2">XXL</button>
+                <div class="flex space-x-2" id="size-buttons">
+                    <button class="uppercase p-2 size-btn">S</button>
+                    <button class="uppercase p-2 size-btn text-white bg-black">M</button>
+                    <button class="uppercase p-2 size-btn">L</button>
+                    <button class="uppercase p-2 size-btn">XL</button>
+                    <button class="uppercase p-2 size-btn">XXL</button>
                 </div>
                 <button class="mt-16 rounded-md py-2 uppercase block text-center bg-blue-500 text-white w-full">ADD TO BAG</button>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
-
 
 </html>
