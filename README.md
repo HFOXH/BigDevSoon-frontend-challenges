@@ -1,9 +1,12 @@
 # 🏆 Solución de ejercicios de Frontend de BigDevSoon  
 
-Este repositorio contiene mis soluciones a los desafíos de **BigDevSoon**, enfocados en mejorar mis habilidades en **HTML, CSS y JavaScript**. 🚀  
+Este repositorio contiene mis soluciones a los desafíos de **BigDevSoon**, enfocados en mejorar mis habilidades en **HTML, CSS, tailwind y JavaScript**. 🚀  
 
 ## 📌 Desafíos resueltos  
-✅ **Profile Card** - Diseño de tarjeta de perfil con HTML y CSS (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%201%20-%20Profile%20Card))  
+✅ **Profile Card** - Diseño de tarjeta de perfil con HTML y CSS (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%201%20-%20Profile%20Card))
+✅ **Add to bag** - Diseño de tarjeta de perfil con HTML, JS y CSS (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%202%20-%20Add%20to%20bag))  
+✅ **Mobile Navigation** - Diseño de tarjeta de perfil con HTML y CSS (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%203%20-%20Mobile%20Navigation))  
+✅ **Contact Us** - Diseño de tarjeta de perfil con HTML y CSS (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%204%20-%20Contact%20Us))  
 ✏️ Próximamente más desafíos...  
 
 ## 🚀 Tecnologías usadas  
