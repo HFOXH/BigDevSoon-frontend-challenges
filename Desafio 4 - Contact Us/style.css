@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Montserrat;
+}
+
+.shadow-neon{
+    box-shadow: 0 0 10px rgba(245, 40, 145, 0.9), 0 0 20px rgba(245, 40, 145, 0.9), 0 0 30px rgba(245, 40, 145, 0.9);
+}
+
+.main-background{
+    background: linear-gradient(180deg, #482ce3 0%, #470127 100%);
+}
+
+.bg-image{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    height: 70%;
+    background-image: url('https://santic.netlify.app/assets/img-challenge/Challenge3-map.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:left bottom;
+    z-index: -1;
+}
+
+input[type="radio"]:checked{
+    accent-color: #4226d4;
+}
