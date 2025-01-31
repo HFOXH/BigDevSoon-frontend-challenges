@@ -19,12 +19,24 @@ Diseño de menú para dispositivos moviles con HTML y CSS
 Diseño de contact us con HTML y CSS  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%204%20-%20Contact%20Us))  
 
+✅ **Recipe**   
+Diseño de Recipe con HTML  
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%205%20-%20Recipe))  
+
+✅ **Image Carousel**   
+Diseño de Recipe con HTML y JS
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%206%20-%20Image%20Carousel))  
+
 ✏️ Próximamente más desafíos...  
 
 ## 🚀 Tecnologías usadas  
 - HTML  
 - CSS  
-- JavaScript (según el desafío)  
+- JavaScript (según el desafío)
+- Tailwind
+- Font Awesome
+- Mdi Icons
+- Fotografías de Pexels (Agradecemos a los autores por su increíble trabajo, ¡gracias por compartir su creatividad!)
 
 ## 💡 Cómo usar este repo  
 1. Clona el repositorio:  
@@ -35,3 +47,17 @@ Diseño de contact us con HTML y CSS
 
 ## 📢 Contribución  
 Si tienes sugerencias o mejoras, ¡estaré encantado de leerlas! 😃  
+
+
+
+## Imágenes usadas
+
+- Imagen de Christina Morillo https://www.pexels.com/es-es/foto/hombre-vestido-con-sueter-azul-con-botones-1181391/ en Pexels.
+- Imagen de Nadin Sh https://www.pexels.com/es-es/foto/comida-restaurante-moda-mujer-17323515/ en Pexels.
+- Imagen de SuperCaferos https://supercafeteros.com/wp-content/uploads/2022/08/cafe-dalgona-con-bebida-de-coco-@izgubljenausvemiru-e1659886795775.jpg en Supercaferos.
+- Imagen de Wyxina Tresse https://www.pexels.com/photo/dark-green-photo-of-a-sumac-plant-27168244/ en Pexels.
+- Imagen de Aero yx https://images.pexels.com/photos/27272191/pexels-photo-27272191/free-photo-of-rapidos-de-bacalar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 en Pexels
+- Imagen de Meric Tuna https://images.pexels.com/photos/29975655/pexels-photo-29975655/free-photo-of-solitary-tree-in-lush-green-wheat-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 en Pexels.
+- Imagen de Eshwar Kapse J https://images.pexels.com/photos/30088193/pexels-photo-30088193/free-photo-of-lush-green-terraced-fields-in-ooty-india.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 en Pexels.
+- Imagen de Joshua Earle https://plus.unsplash.com/premium_photo-1674831528132-7d4a29b6ab4f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D en Pexels.
+- Imagen de Vũ Bụi https://www.pexels.com/photo/vibrant-kingfisher-resting-on-a-stump-vietnam-30364108/ en Pexels.
