@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Our unique tag to identify the solution -->
+  <bds />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>BigDevSoon Create Account challenge</title>
+
+  <!-- TailwindCSS for styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white flex flex-col items-center justify-center min-h-screen">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center min-h-screen">
+        <div class="w-full mx-20 max-w-[500px]">
+            <p class="font-bold text-neutral-400">START FOR FREE</p>
+            <p class="text-[44px] font-bold">Create new account</p>
+            <div class="mt-8">
+                <div class="flex space-x-4">
+                    <div class="relative w-full">
+                        <input value="John" type="text" class="font-bold p-4 pt-6 rounded-md bg-light-blue w-full peer border border-transparent focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none" placeholder=" " required>
+                        <label class="absolute left-4 top-4 text-gray-500 px-1 transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base peer-focus:top-1 peer-focus:text-xs peer-focus:text-blue-600 peer-valid:top-1 peer-valid:text-xs peer-valid:text-blue-600">First name</label>
+                        <span class="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-500">
+                            <i class="fa-solid fa-address-card"></i>
+                        </span>
+                    </div>
+                    <div class="relative w-full">
+                        <input value="Doe" type="text" class="font-bold p-4 pt-6 rounded-md bg-light-blue w-full peer border border-transparent focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none" placeholder=" " required>
+                        <label class="absolute left-4 top-4 text-gray-500 px-1 transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base peer-focus:top-1 peer-focus:text-xs peer-focus:text-blue-600 peer-valid:top-1 peer-valid:text-xs peer-valid:text-blue-600">Last name</label>
+                        <span class="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-500">
+                            <i class="fa-solid fa-address-card"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="relative w-full mt-4">
+                    <input value="john.doe@email.com" type="email" class="font-bold p-4 pt-6 rounded-md bg-light-blue w-full peer border border-transparent focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none" placeholder=" " required>
+                    <label class="absolute left-4 top-4 text-gray-500 px-1 transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base peer-focus:top-1 peer-focus:text-xs peer-focus:text-blue-600 peer-valid:top-1 peer-valid:text-xs peer-valid:text-blue-600">Email</label>
+                    <span class="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-500">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                </div>
+                <div class="relative w-full mt-4">
+                    <input value="12345678" type="password" class="font-bold p-4 pt-6 rounded-md bg-white w-full peer border border-transparent focus:border-blue-500 ring-2 ring-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none" placeholder=" " required>
+                    <label class="absolute left-4 top-4 text-gray-500 px-1 transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-gray-500 peer-placeholder-shown:text-base peer-focus:top-1 peer-focus:text-xs peer-focus:text-blue-600 peer-valid:top-1 peer-valid:text-xs peer-valid:text-blue-600">Password</label>
+                    <span class="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-500">
+                        <i class="fa-solid fa-eye"></i>
+                    </span>
+                </div>
+            </div>
+            <p class="font-bold text-neutral-400 my-4">Already have an account? <a href="#" class="text-accent-blue cursor-pointer">Sign in</a></p>
+            <button class="mt-8 text-center w-full bg-blue rounded-full py-3 font-bold text-white shadow-[0px_4px_10px_#d7c8f0]">Create account</button>
+        </div>
+        <div class="w-full h-full flex justify-center items-center">
+            <img src="https://santic.netlify.app/assets/img-challenge/challenge7.png" alt="" class="w-full h-full object-cover">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
