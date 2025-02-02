@@ -2,86 +2,87 @@
 <html lang="en">
 
 <head>
-  <!-- Our unique tag to identify the solution -->
-  <bds />
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <title>BigDevSoon Music Events challenge</title>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>BigDevSoon Music Events challenge</title>
 
-  <!-- TailwindCSS for styling -->
-  <script src="https://cdn.tailwindcss.com"></script>
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-main flex flex-col justify-center min-h-screen container mx-auto">
-    <p class="text-3xl font-bold">Music events</p>
-    <p class="mt-2">in London, United Kingdom</p>
-    <div class="mt-6">
-        <div class="my-4 flex justify-between items-center w-full bg-white rounded-xl p-4">
-            <div class="flex space-x-4">
-                <div class="rounded-xl bg-orange text-center px-4 py-2 w-[120px]">
+<body class="bg-main flex flex-col justify-center min-h-screen container mx-auto px-4">
+    <p class="text-3xl font-bold text-center">Music events</p>
+    <p class="mt-2 text-center">in London, United Kingdom</p>
+    <div class="mt-6 space-y-6">
+
+        <div class="bg-white rounded-xl p-4 flex flex-wrap md:flex-nowrap items-center justify-between">
+            <div class="flex flex-wrap md:flex-nowrap items-center space-x-4 w-full">
+                <div class="rounded-xl bg-orange text-center px-4 py-2 min-w-[120px]">
                     <p class="text-sm">Today</p>
                     <p class="font-bold text-[24px]">21:00</p>
                 </div>
-                <div>
-                    <p class="font-bold text-[24px]">Swiftogeddon - The Taylor Swift Club Night</p>
-                    <p>Swiftogeddon is a night dedicated to worshipping at the altar of Taylor<br>Swift: non-stop Swifty all night: deep cuts, extended mixes, fan favourites.</p>
+                <div class="flex-1">
+                    <p class="font-bold text-lg md:text-[24px]">Swiftogeddon - The Taylor Swift Club Night</p>
+                    <p class="text-sm md:text-base">Swiftogeddon is a night dedicated to worshipping at the altar of
+                        Taylor Swift: non-stop Swifty all night: deep cuts, extended mixes, fan favourites.</p>
                 </div>
             </div>
-            <div class="text-left font-bold pr-24">
-                <p>Sold out!</p>
-            </div>
+            <p class="text-black font-bold text-center md:text-left mt-4 md:mt-0">Sold out!</p>
         </div>
-        <div class="my-4 flex justify-between items-center w-full bg-white rounded-xl p-4">
-            <div class="flex space-x-4">
-                <div class="rounded-xl bg-green text-center px-4 py-2 w-[120px]">
+
+        <div class="bg-white rounded-xl p-4 flex flex-wrap md:flex-nowrap items-center justify-between">
+            <div class="flex flex-wrap md:flex-nowrap items-center space-x-4 w-full">
+                <div class="rounded-xl bg-green text-center px-4 py-2 min-w-[120px]">
                     <p class="text-sm">17 December</p>
                     <p class="font-bold text-[24px]">22:00</p>
                 </div>
-                <div>
-                    <p class="font-bold text-[24px]">Lana Del Rave</p>
-                    <p>Launching the first ever ‘Lana Del Rave’ at Heaven Nightclub. Join us for a<br>
-                        night devoted to the Queen of Alternative as well as favourites from...</p>
+                <div class="flex-1">
+                    <p class="font-bold text-lg md:text-[24px]">Lana Del Rave</p>
+                    <p class="text-sm md:text-base">Launching the first ever ‘Lana Del Rave’ at Heaven Nightclub. Join
+                        us for a night devoted to the Queen of Alternative as well as favourites from...</p>
                 </div>
             </div>
-            <div class="text-center pr-8">
-                <button class="py-4 px-6 bg-black rounded-xl text-white"><i class="fa-solid fa-ticket-simple mx-2"></i> Buy a Ticket</button>
-            </div>
+            <button class="py-3 px-4 bg-black rounded-xl text-white mt-4 md:mt-0"><i
+                    class="fa-solid fa-ticket-simple mx-2"></i> Buy a Ticket</button>
         </div>
-        <div class="my-4 flex justify-between items-center w-full bg-white rounded-xl p-4">
-            <div class="flex space-x-4">
-                <div class="rounded-xl bg-blue text-center px-4 py-2 w-[120px]">
+
+        <div class="bg-white rounded-xl p-4 flex flex-wrap md:flex-nowrap items-center justify-between">
+            <div class="flex flex-wrap md:flex-nowrap items-center space-x-4 w-full">
+                <div class="rounded-xl bg-blue text-center px-4 py-2 min-w-[120px]">
                     <p class="text-sm">19 December</p>
                     <p class="font-bold text-[24px]">18:30</p>
                 </div>
-                <div>
-                    <p class="font-bold text-[24px]">MASSAOKE: XMAS LIVE at the Electric Ballroom</p>
-                    <p>Featuring all your Favourite Festive hits from WHAM, SLADE, MARIAH,<br>
+                <div class="flex-1">
+                    <p class="font-bold text-lg md:text-[24px]">MASSAOKE: XMAS LIVE at the Electric Ballroom</p>
+                    <p class="text-sm md:text-base">Featuring all your Favourite Festive hits from WHAM, SLADE, MARIAH,
                         WIZZARD, THE POGUES and many more - as well as hairbrush anthems.</p>
                 </div>
             </div>
-            <div class="text-center pr-8">
-                <button class="py-4 px-6 bg-black rounded-xl text-white"><i class="fa-solid fa-ticket-simple mx-2"></i> Buy a Ticket</button>
-            </div>
+            <button class="py-3 px-4 bg-black rounded-xl text-white mt-4 md:mt-0"><i
+                    class="fa-solid fa-ticket-simple mx-2"></i> Buy a Ticket</button>
         </div>
-        <div class="my-4 flex justify-between items-center w-full bg-white rounded-xl p-4">
-            <div class="flex space-x-4">
-                <div class="rounded-xl bg-purple text-center px-4 py-2 w-[120px]">
+
+        <div class="bg-white rounded-xl p-4 flex flex-wrap md:flex-nowrap items-center justify-between">
+            <div class="flex flex-wrap md:flex-nowrap items-center space-x-4 w-full">
+                <div class="rounded-xl bg-purple text-center px-4 py-2 min-w-[120px]">
                     <p class="text-sm">22 December</p>
                     <p class="font-bold text-[24px]">19:00</p>
                 </div>
-                <div>
-                    <p class="font-bold text-[24px]">Eleni Tsaligopoulou Full-band</p>
-                    <p>Eleni Tsaligopoulou is one of the most popular and beloved Greek singers<br>
-                        with a wide range of repertoire and timeless hits. During her 30 year...</p>
+                <div class="flex-1">
+                    <p class="font-bold text-lg md:text-[24px]">Eleni Tsaligopoulou Full-band</p>
+                    <p class="text-sm md:text-base">Eleni Tsaligopoulou is one of the most popular and beloved Greek
+                        singers with a wide range of repertoire and timeless hits. During her 30 year...</p>
                 </div>
             </div>
-            <div class="text-center pr-8">
-                <button class="py-4 px-6 bg-black rounded-xl text-white"><i class="fa-solid fa-ticket-simple mx-2"></i> Buy a Ticket</button>
-            </div>
+            <button class="py-3 px-4 bg-black rounded-xl text-white mt-4 md:mt-0"><i
+                    class="fa-solid fa-ticket-simple mx-2"></i> Buy a Ticket</button>
         </div>
+
     </div>
 </body>
 
