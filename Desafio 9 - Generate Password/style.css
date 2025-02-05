@@ -1,0 +1,98 @@
+.bg-pink {
+    background-color: #f7e7ff;
+}
+
+.bg-dark-purple {
+    background-color: #090212;
+}
+
+.bg-light-purple {
+    background-color: #26173a;
+}
+
+.bg-dark-pink {
+    background-color: #ce5fff;
+}
+
+.bg-disable-pink {
+    background-color: #715187;
+}
+
+.bg-white-disable {
+    background-color: #a994b3;
+}
+
+.color-dark-pink {
+    color: #ce5fff;
+}
+
+/* Estilos para el rango */
+.range-input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    background-color: black;
+    border-radius: 5px;
+    outline: none;
+}
+
+.range-input::-webkit-slider-runnable-track {
+    height: 8px;
+    background: linear-gradient(to right, #ce5fff var(--range-progress), #5a4c6c var(--range-progress));
+    border-radius: 5px;
+}
+
+/* Estilo para la bolita del rango */
+.range-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -6px;
+}
+
+/* Estilos en Mozilla */
+.range-input::-moz-range-track {
+    height: 8px;
+    background: linear-gradient(to right, #ce5fff var(--range-progress), #5a4c6c var(--range-progress));
+    border-radius: 5px;
+}
+
+.range-input::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*Animación para la alerta al copiar*/
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    10% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    90% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+.fade-in-out{
+    animation: fadeInOut 3s ease-in-out forwards;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Our unique tag to identify the solution -->
+  <bds />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>BigDevSoon Password Generator challenge</title>
+
+  <!-- TailwindCSS for styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-pink flex flex-col items-center justify-center min-h-screen">
+    <div id="customAlert" class="fixed top-0 left-1/2 transform -translate-x-1/2 mt-4 opacity-0 transition-opacity duration-300">
+        <div class="bg-green-50 border border-green-500 rounded-xl text-green-500 font-bold text-sm p-4 justify-between w-[250px]">
+            <div class="flex items-center justify-center w-full">
+                <p>Password copied to clipboard!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-dark-purple text-white p-8 shadow rounded-xl w-[400px]">
+        <p class="font-medium text-[25px] mt-2">Generate password</p>
+        <div class="mt-8">
+            <p class="uppercase text-neutral-400 text-xs my-2">GENERATED PASSWORD</p>
+            <div class="rounded-xl bg-light-purple px-4 py-2 flex justify-between items-center w-full">
+                <p id="generatedPassword">sZBseL181NEj</p>
+                <div>
+                    <i id="copyIcon" class="cursor-pointer fa-regular fa-copy color-dark-pink"></i>
+                    <i id="refreshIcon" class="cursor-pointer fa-solid fa-arrows-rotate color-dark-pink ml-2"></i>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="my-2 flex justify-between items-center">
+            <p class="uppercase text-neutral-400 text-xs">CHARACTER LENGTH:</p>
+            <p class="font-bold color-dark-pink" id="rangeValue">12</p>
+        </div>
+        <div class="rounded-xl bg-light-purple px-4 py-2 flex justify-between items-center w-full">
+            <p>8</p>
+            <input type="range" id="range" name="range" min="8" max="32" value="12" class="w-full range-input mx-4"/>
+            <p>32</p>
+        </div>
+        <br>
+        <p class="uppercase text-neutral-400 text-xs my-2">SETTINGS</p>
+        <div class="space-y-4">
+            <div class="rounded-xl bg-light-purple px-4 py-3 flex justify-between items-center w-full">
+                <p>Include uppercase letters</p>
+                <label for="toggleUppercase" class="flex items-center cursor-pointer select-none">
+                    <div class="relative">
+                        <input type="checkbox" id="toggleUppercase" class="peer sr-only" checked />
+                        <div class="block h-6 rounded-full bg-disable-pink w-10 peer-checked:bg-fuchsia-500"></div>
+                        <div class="absolute w-4 h-4 transition bg-white-disable peer-checked:bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full"></div>
+                    </div>
+                </label>
+            </div>
+            <div class="rounded-xl bg-light-purple px-4 py-3 flex justify-between items-center w-full">
+                <p>Include lowercase letters</p>
+                <label for="toggleLowercase" class="flex items-center cursor-pointer select-none">
+                    <div class="relative">
+                        <input type="checkbox" id="toggleLowercase" class="peer sr-only" checked />
+                        <div class="block h-6 rounded-full bg-disable-pink w-10 peer-checked:bg-fuchsia-500"></div>
+                        <div class="absolute w-4 h-4 transition bg-white-disable peer-checked:bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full"></div>
+                    </div>
+                </label>
+            </div>
+            <div class="rounded-xl bg-light-purple px-4 py-3 flex justify-between items-center w-full">
+                <p>Include numbers</p>
+                <label for="toggleNumbers" class="flex items-center cursor-pointer select-none">
+                    <div class="relative">
+                        <input type="checkbox" id="toggleNumbers" class="peer sr-only" checked />
+                        <div class="block h-6 rounded-full bg-disable-pink w-10 peer-checked:bg-fuchsia-500"></div>
+                        <div class="absolute w-4 h-4 transition bg-white-disable peer-checked:bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full"></div>
+                    </div>
+                </label>
+            </div>
+            <div class="rounded-xl bg-light-purple px-4 py-3 flex justify-between items-center w-full">
+                <p>Include symbols</p>
+                <label for="toggleSymbols" class="flex items-center cursor-pointer select-none">
+                    <div class="relative">
+                        <input type="checkbox" id="toggleSymbols" class="peer sr-only" />
+                        <div class="block h-6 rounded-full bg-disable-pink w-10 peer-checked:bg-fuchsia-500"></div>
+                        <div class="absolute w-4 h-4 transition bg-white-disable peer-checked:bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full"></div>
+                    </div>
+                </label>
+            </div>
+        </div>
+        <button id="generateButton" class="mt-8 w-full text-center text-white font-bold bg-fuchsia-500 p-4 rounded-lg">Generate Password</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
