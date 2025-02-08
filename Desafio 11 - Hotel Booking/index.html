@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>BigDevSoon Sign Up Page challenge</title>
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main flex flex-col items-center justify-center min-h-screen px-4 sm:px-24">
+    <div class="bg-white text-gray-800 p-8 space-y-6 shadow-2xl rounded-xl max-w-6xl w-full">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Left Column: Form -->
+            <div class="w-full h-full flex flex-col justify-between">
+                <div class="space-y-4">
+                    <!-- Check In -->
+                    <label for="check-in" class="font-medium block mb-1">Check In</label>
+                    <div class="relative">
+                        <input type="text" id="check-in" name="check-in" placeholder="8 February, 2024"
+                            class="w-full px-4 py-2 bg-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500" />
+                        <i id="calendar-icon-check-in"
+                            class="fa-solid fa-calendar-days absolute top-1/2 -translate-y-1/2 right-2 cursor-pointer text-gray-500 hover:text-gray-700"></i>
+                    </div>
+
+                    <!-- Check Out -->
+                    <label for="check-out" class="font-medium block mb-1 mt-4">Check Out</label>
+                    <div class="relative">
+                        <input type="text" id="check-out" name="check-out" placeholder="12 February, 2024"
+                            class="w-full px-4 py-2 bg-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500" />
+                        <i id="calendar-icon-check-out"
+                            class="fa-solid fa-calendar-days absolute top-1/2 -translate-y-1/2 right-2 cursor-pointer text-gray-500 hover:text-gray-700"></i>
+                    </div>
+
+                    <!-- Custom Calendar -->
+                    <div id="calendar-container" class="hidden absolute bg-white p-4 rounded-lg shadow-lg z-10">
+                        <div class="flex justify-between items-center mb-4">
+                            <button id="prev-month" class="text-gray-500 hover:text-gray-700"><i
+                                    class="fa-solid fa-chevron-left"></i></button>
+                            <span id="current-month-year" class="font-medium">February 2024</span>
+                            <button id="next-month" class="text-gray-500 hover:text-gray-700"><i
+                                    class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                        <div class="grid grid-cols-7 gap-2 text-center text-gray-500 text-sm">
+                            <div class="font-medium">Mon</div>
+                            <div class="font-medium">Tue</div>
+                            <div class="font-medium">Wed</div>
+                            <div class="font-medium">Thu</div>
+                            <div class="font-medium">Fri</div>
+                            <div class="font-medium">Sat</div>
+                            <div class="font-medium">Sun</div>
+                        </div>
+                        <div id="calendar-days" class="grid grid-cols-7 gap-0 mt-2"></div>
+                    </div>
+
+                    <!-- Adults and Children -->
+                    <div class="grid grid-cols-2 gap-4">
+                        <!-- Adults Select -->
+                        <div class="relative w-full">
+                            <label for="adults" class="font-medium block mb-1">Adults</label>
+                            <button id="adults-button"
+                                class="flex w-full items-center justify-between rounded bg-gray-100 p-2 ring-0 ring-gray-100 focus:outline-none focus:ring-2 ">
+                                <span id="adults-selected" class="text-gray-400">1</span>
+                                <i id="adults-arrow"
+                                    class="fas fa-caret-down text-sm transition-transform duration-200"></i>
+                            </button>
+
+                            <ul id="adults-options"
+                                class="z-10 absolute mt-1 w-full rounded bg-white ring-1 ring-gray-300 max-h-50 overflow-y-auto hidden">
+                                <li class="cursor-pointer select-none p-2 hover:bg-gray-200">0</li>
+                                <li class="cursor-pointer select-none p-2 hover:bg-gray-200">1</li>
+                                <li class="cursor-pointer select-none p-2 hover:bg-gray-200">2</li>
+                                <li class="cursor-pointer select-none p-2 hover:bg-gray-200">3</li>
+                                <li class="cursor-pointer select-none p-2 hover:bg-gray-200">4</li>
+                            </ul>
+                        </div>
+
+                        <!-- Children Select -->
+                        <div class="relative w-full">
+                            <label for="children" class="font-medium block mb-1">Children</label>
+                            <button id="children-button"
+                                class="flex w-full items-center justify-between rounded bg-gray-100 p-2 ring-0 ring-gray-100 focus:outline-none focus:ring-2 ">
+                                <span id="children-selected" class="text-gray-400">1</span>
+                                <i id="children-arrow"
+                                    class="fas fa-caret-down text-sm transition-transform duration-200"></i>
+                            </button>
+
+                            <ul id="children-options"
+                                class="z-10 absolute mt-1 w-full rounded bg-white ring-1 ring-gray-300 max-h-50 overflow-y-auto hidden">
+                                <li class="cursor-pointer select-none p-2 hover:bg-gray-200">0</li>
+                                <li class="cursor-pointer select-none p-2 hover:bg-gray-200">1</li>
+                                <li class="cursor-pointer select-none p-2 hover:bg-gray-200">2</li>
+                                <li class="cursor-pointer select-none p-2 hover:bg-gray-200">3</li>
+                                <li class="cursor-pointer select-none p-2 hover:bg-gray-200">4</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Book a Room Button -->
+                <button
+                    class="p-3 rounded-full bg-orange-500 text-white hover:bg-orange-600 transition duration-300 transform">
+                    Book a Room
+                </button>
+            </div>
+
+            <!-- Right Column: Images -->
+            <div class="w-full">
+                <!-- Main Image -->
+                <div class="relative w-full">
+                    <img class="w-full h-64 sm:h-96 object-cover"
+                        src="https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Main Room Image">
+                    <div class="absolute bottom-0 left-0 p-4 bg-transparent text-white rounded-b-lg">
+                        <p class="text-sm sm:text-base font-medium">Golden Apartments</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="ml-2 text-xs sm:text-sm">Punta Cana, Dominican Republic</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Thumbnails -->
+                <div class="mt-4 grid grid-cols-3 gap-4">
+                    <img class="w-full h-24 sm:h-32 object-cover cursor-pointer hover:opacity-80 transition duration-300"
+                        src="https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Room 1">
+                    <img class="w-full h-24 sm:h-32 object-cover cursor-pointer hover:opacity-80 transition duration-300"
+                        src="https://images.pexels.com/photos/261388/pexels-photo-261388.jpeg" alt="Room 2">
+                    <img class="w-full h-24 sm:h-32 object-cover cursor-pointer hover:opacity-80 transition duration-300"
+                        src="https://images.pexels.com/photos/2290753/pexels-photo-2290753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="Room 3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
