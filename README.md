@@ -61,3 +61,7 @@ Si tienes sugerencias o mejoras, ¡estaré encantado de leerlas! 😃
 - Imagen de Eshwar Kapse J https://images.pexels.com/photos/30088193/pexels-photo-30088193/free-photo-of-lush-green-terraced-fields-in-ooty-india.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 en Pexels.
 - Imagen de Joshua Earle https://plus.unsplash.com/premium_photo-1674831528132-7d4a29b6ab4f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D en Pexels.
 - Imagen de Vũ Bụi https://www.pexels.com/photo/vibrant-kingfisher-resting-on-a-stump-vietnam-30364108/ en Pexels.
+- Imagen de Pixabay https://www.pexels.com/photo/empty-bar-filled-with-lights-260922/ en Pexels.
+- Imagen de Pixabay https://www.pexels.com/photo/swimming-pool-with-buildings-261388/ en Pexels.
+- Imagen de Thorsten technoman https://www.pexels.com/photo/view-of-tourist-resort-338504/ en Pexels.
+- Imagen de Zak Chapman https://www.pexels.com/photo/gray-padded-chair-2290753/ en Pexels.
