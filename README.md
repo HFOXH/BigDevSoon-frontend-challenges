@@ -65,3 +65,4 @@ Si tienes sugerencias o mejoras, ¡estaré encantado de leerlas! 😃
 - Imagen de Pixabay https://www.pexels.com/photo/swimming-pool-with-buildings-261388/ en Pexels.
 - Imagen de Thorsten technoman https://www.pexels.com/photo/view-of-tourist-resort-338504/ en Pexels.
 - Imagen de Zak Chapman https://www.pexels.com/photo/gray-padded-chair-2290753/ en Pexels.
+- Imagen de Alexandra Kollstrem https://www.pexels.com/photo/glasses-on-a-dining-table-8856560/ en Pexels.
