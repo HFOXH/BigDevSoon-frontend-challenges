@@ -1,0 +1,43 @@
+.bg-main {
+    background-color: #E5E8EE;
+}
+
+.image-stack {
+    display: flex;
+    align-items: center;
+}
+
+.image-stack img {
+    margin-left: -10px;
+    border: 2px solid white;
+}
+
+.image-stack img:first-child {
+    margin-left: 0px;
+    /*La primera img no necesita el margen*/
+}
+
+.plus-icon {
+    border: 2px dotted #a0a0a0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -10px;
+    background-color: #fff;
+}
+
+.plusicon:first-child {
+    margin-left: 0;
+}
+
+.bg-pink {
+    background-color: #e80682;
+}
+
+.bg-green {
+    background-color: #4AB53F;
+}
+
+.bg-blue {
+    background-color: #2DB5E8;
+}

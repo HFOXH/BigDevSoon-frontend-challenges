@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>BigDevSoon Task Board challenge</title>
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main container min-h-screen p-8">
+    <h1 class="text-2xl font-bold">Boards</h1>
+    <div class="grid grid-cols-1 md:grid-cols-4 mt-4">
+        <!-- To do Column -->
+        <div class="p-4 flex flex-col space-y-4">
+            <p class="font-medium">To do <i class="fa-solid fa-plus ml-4 text-[10px] text-gray-500"></i></p>
+            <div class="w-full shadow-xl bg-white rounded-lg p-4">
+                <div class="flex items-center justify-between text-[10px]">
+                    <div class="p-0 bg-pink text-center w-8 rounded">
+                        <p class="uppercase text-white">HIGH</p>
+                    </div>
+                    <p class="text-neutral-400">2/15/24</p>
+                </div>
+                <img src=https://images.unsplash.com/photo-1632516643720-e7f5d7d6ecc9?q=80&w=2022&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="w-full h-24 object-cover rounded-lg my-4" alt="Image">
+                <p class="font-bold text-sm my-4">Update Website Homepage</p>
+                <p class="text-[12px]">Revise the content and layout of the homepage to highlight new features and
+                    improve user engageement.</p>
+                <div class="image-stack mt-2">
+                    <img src="https://images.pexels.com/photos/16346891/pexels-photo-16346891/free-photo-of-a-woman-with-long-hair-and-a-necklace.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="h-8 w-8 object-cover rounded-full">
+                    <img src="https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="h-8 w-8 object-cover rounded-full">
+                    <span class="h-8 w-8 rounded-full plus-icon"><i
+                            class="fa-solid fa-plus text-[10px] text-black"></i></span>
+                </div>
+            </div>
+        </div>
+        <!-- In progress Column -->
+        <div class="p-4 flex flex-col space-y-4">
+            <p class="font-medium">In progress <i class="fa-solid fa-plus ml-4 text-[10px] text-gray-500"></i></p>
+            <div class="w-full shadow-xl bg-white rounded-lg p-4">
+                <div class="flex items-center justify-between text-[10px]">
+                    <div class="p-0 bg-green text-center w-8 rounded">
+                        <p class="uppercase text-white">LOW</p>
+                    </div>
+                    <p class="text-neutral-400">2/13/24</p>
+                </div>
+                <p class="font-bold text-sm my-4">Bug Fix - User Registration</p>
+                <p class="text-[12px]">Revise the content and layout of the homepage to highlight new features and
+                    improve user engageement.</p>
+                <div class="image-stack mt-2">
+                    <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="h-8 w-8 object-cover rounded-full">
+                    <span class="h-8 w-8 rounded-full plus-icon"><i
+                            class="fa-solid fa-plus text-[10px] text-black"></i></span>
+                </div>
+            </div>
+            <div class="w-full shadow-xl bg-white rounded-lg p-4">
+                <div class="flex items-center justify-between text-[10px]">
+                    <div class="p-0 bg-blue text-center w-12 rounded">
+                        <p class="uppercase text-white">MEDIUM</p>
+                    </div>
+                    <p class="text-neutral-400">2/08/24</p>
+                </div>
+                <img src="https://img.freepik.com/fotos-premium/fondo-abstracto-ensueno-cielo-azul-pastel-rosado-estrellas-luna-creciente-olas-blancas-brillantes_36682-109807.jpg?w=1380"
+                    class="w-full h-24 object-cover rounded-lg my-4" alt="Image">
+                <p class="font-bold text-sm my-4">Social Media Campaign</p>
+                <p class="text-[12px]">Revise the content and layout of the homepage to highlight new features and
+                    improve user engageement.</p>
+                <div class="image-stack mt-2">
+                    <img src="https://images.pexels.com/photos/16346891/pexels-photo-16346891/free-photo-of-a-woman-with-long-hair-and-a-necklace.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="h-8 w-8 object-cover rounded-full">
+                    <img src="https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="h-8 w-8 object-cover rounded-full">
+                    <span class="h-8 w-8 rounded-full plus-icon"><i
+                            class="fa-solid fa-plus text-[10px] text-black"></i></span>
+                </div>
+            </div>
+        </div>
+        <!-- Review Column -->
+        <div class="p-4 flex flex-col space-y-4">
+            <p class="font-medium">Under Review <i class="fa-solid fa-plus ml-4 text-[10px] text-gray-500"></i></p>
+            <div class="w-full shadow-xl bg-white rounded-lg p-4">
+                <div class="flex items-center justify-between text-[10px]">
+                    <div class="p-0 bg-pink text-center w-8 rounded">
+                        <p class="uppercase text-white">HIGH</p>
+                    </div>
+                    <p class="text-neutral-400">2/11/24</p>
+                </div>
+                <p class="font-bold text-sm my-4">Mobile App Feature - Push Notifications</p>
+                <p class="text-[12px]">Implement push notification feature for the mobile app to enhance user
+                    engagement. Ensure compatibility with both 08 and Android platforms.</p>
+                <div class="image-stack mt-2">
+                    <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="h-8 w-8 object-cover rounded-full">
+                    <span class="h-8 w-8 rounded-full plus-icon"><i
+                            class="fa-solid fa-plus text-[10px] text-black"></i></span>
+                </div>
+            </div>
+        </div>
+        <!-- Done Column -->
+        <div class="p-4 flex flex-col space-y-4">
+            <p class="font-medium">Done <i class="fa-solid fa-plus ml-4 text-[10px] text-gray-500"></i></p>
+            <div class="w-full shadow-xl bg-white rounded-lg p-4">
+                <div class="flex items-center justify-between text-[10px]">
+                    <div class="p-0 bg-green text-center w-8 rounded">
+                        <p class="uppercase text-white">LOW</p>
+                    </div>
+                    <p class="text-neutral-400">2/09/24</p>
+                </div>
+                <p class="font-bold text-sm my-4">Content Creation - Blog Post</p>
+                <p class="text-[12px]">Write and publish a blog post bout industry trends and thei Impact on our
+                    products/services. Include relevant visuals and SEO optimization.</p>
+                <div class="image-stack mt-2">
+                    <img src="https://images.pexels.com/photos/16346891/pexels-photo-16346891/free-photo-of-a-woman-with-long-hair-and-a-necklace.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="h-8 w-8 object-cover rounded-full">
+                    <span class="h-8 w-8 rounded-full plus-icon"><i
+                            class="fa-solid fa-plus text-[10px] text-black"></i></span>
+                </div>
+            </div>
+            <div class="w-full shadow-xl bg-white rounded-lg p-4">
+                <div class="flex items-center justify-between text-[10px]">
+                    <div class="p-0 bg-blue text-center w-12 rounded">
+                        <p class="uppercase text-white">MEDIUM</p>
+                    </div>
+                    <p class="text-neutral-400">2/08/24</p>
+                </div>
+                <img src="https://images.pexels.com/photos/5922572/pexels-photo-5922572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="w-full h-24 object-cover rounded-lg my-4" alt="Image">
+                <p class="font-bold text-sm my-4">IT Security Audit</p>
+                <p class="text-[12px]">Write and publish a blog post bout industry trends and thei Impact on our
+                    products/services. Include relevant visuals and SEO optimization.</p>
+                <div class="image-stack mt-2">
+                    <img src="https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="h-8 w-8 object-cover rounded-full">
+                    <span class="h-8 w-8 rounded-full plus-icon"><i
+                            class="fa-solid fa-plus text-[10px] text-black"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
