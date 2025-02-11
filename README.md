@@ -4,19 +4,19 @@ Este repositorio contiene mis soluciones a los desafíos de **BigDevSoon**, enfo
 
 ## 📌 Desafíos resueltos  
 ✅ **Profile Card**   
-Diseño de tarjeta de perfil con HTML y CSS   
+```HTML y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%201%20-%20Profile%20Card))  
 
 ✅ **Add to bag**   
-Diseño de tarjeta de seleccion de imagenes para venta de producto con HTML, CSS y JS   
+```HTML, JS y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%202%20-%20Add%20to%20bag))  
 
 ✅ **Mobile Navigation**  
-Diseño de menú para dispositivos moviles con HTML y CSS   
+```HTML y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%203%20-%20Mobile%20Navigation))  
 
 ✅ **Contact Us**   
-Diseño de contact us con HTML y CSS  
+```HTML y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%204%20-%20Contact%20Us))  
 
 ✅ **Recipe**   
@@ -24,31 +24,31 @@ Diseño de Recipe con HTML
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%205%20-%20Recipe))  
 
 ✅ **Image Carousel**   
-Diseño de Recipe con HTML, CSS y JS   
+```HTML, JS y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%206%20-%20Image%20Carousel)) 
 
 ✅ **Create Account**   
-Diseño de Recipe con HTML y CSS   
+```HTML y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%207%20-%20Create%20Account)) 
 
 ✅ **Music Events**   
-Diseño de Recipe con HTML y CSS   
+```HTML y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%208%20-%20Music%20Events)) 
 
 ✅ **Generate Password**   
-Diseño de Recipe con HTML, CSS y JS   
+```HTML, JS y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%209%20-%20Generate%20Password)) 
 
 ✅ **Sign Up Page**   
-Diseño de Recipe con HTML y CSS   
+```HTML y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2010%20-%20Sign%20Up%20Page)) 
 
 ✅ **Hotel Booking**   
-Diseño de Recipe con HTML, CSS y JS   
+```HTML, JS y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2011%20-%20Hotel%20Booking)) 
 
 ✅ **Restaurant Reservation**   
-Diseño de Recipe con HTML y CSS   
+```HTML y CSS```   
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2012%20-%20Restauran%20Reservation))
 
 ✏️ Próximamente más desafíos...  
