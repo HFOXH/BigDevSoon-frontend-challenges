@@ -1,0 +1,13 @@
+.bg-main{
+    position: relative;
+    background-image: url('https://images.pexels.com/photos/30595022/pexels-photo-30595022/free-photo-of-natural-hair-oil-bottles-with-keratin.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
