@@ -97,3 +97,8 @@ Si tienes sugerencias o mejoras, ¡estaré encantado de leerlas! 😃
 - Imagen de Thorsten technoman https://www.pexels.com/photo/view-of-tourist-resort-338504/ en Pexels.
 - Imagen de Zak Chapman https://www.pexels.com/photo/gray-padded-chair-2290753/ en Pexels.
 - Imagen de Alexandra Kollstrem https://www.pexels.com/photo/glasses-on-a-dining-table-8856560/ en Pexels.
+- Imagen de Artem Podrez https://www.pexels.com/photo/hand-relaxation-glass-transparent-6800941/ en Pexels.
+- Imagen de Denys Mikhalevych https://www.pexels.com/photo/close-up-shot-of-skin-care-products-on-white-surface-11935643/ en Pexels.
+- Imagen de Hoang Ngoc Long https://www.pexels.com/photo/face-cleansing-products-in-tubes-16031254/ en Pexels.
+- Imgagen de Harper Sunday https://www.pexels.com/photo/daily-care-routine-3321416/ en Pexels.
+- Imagen de Gaea CBD https://www.pexels.com/photo/natural-hair-oil-bottles-with-keratin-30595022/ en Pexels.
