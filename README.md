@@ -102,3 +102,8 @@ Si tienes sugerencias o mejoras, ¡estaré encantado de leerlas! 😃
 - Imagen de Hoang Ngoc Long https://www.pexels.com/photo/face-cleansing-products-in-tubes-16031254/ en Pexels.
 - Imgagen de Harper Sunday https://www.pexels.com/photo/daily-care-routine-3321416/ en Pexels.
 - Imagen de Gaea CBD https://www.pexels.com/photo/natural-hair-oil-bottles-with-keratin-30595022/ en Pexels.
+- Imagen de Daniel Xavier https://www.pexels.com/photo/woman-wearing-black-eyeglasses-1239291/ en Pexels.
+- Imagen de Los muertos crew https://www.pexels.com/photo/fit-woman-drinking-from-thermos-10042928/ en Pexels.
+- Imagen de Ali Alcántara https://www.pexels.com/photo/portrait-of-a-beautiful-woman-in-a-blue-top-on-the-background-of-a-tree-12319363/ en Pexels.
+- Imagen de Merlin Lightpainting https://www.pexels.com/photo/digital-art-in-close-up-shot-14314636/ en Pexels.
+- Imagen de Merlin Lightpainting https://www.pexels.com/photo/a-blue-face-glowing-11167645/ en Pexels.

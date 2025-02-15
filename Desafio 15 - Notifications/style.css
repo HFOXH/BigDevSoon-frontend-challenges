@@ -1,0 +1,27 @@
+.bg-main{
+    background-color: #f1ecff;
+}
+
+.bg-notification-read{
+    background-color: #f6f6f6;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.bg-notification{
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.bg-purple{
+    background-color: #6d41e2;
+}
+
+.bg-gray{
+    background-color: #f6f6f6;
+}
+
+.color-purple{
+    color: #6d41e2;
+}
