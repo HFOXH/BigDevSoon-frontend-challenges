@@ -107,3 +107,7 @@ Si tienes sugerencias o mejoras, ¡estaré encantado de leerlas! 😃
 - Imagen de Ali Alcántara https://www.pexels.com/photo/portrait-of-a-beautiful-woman-in-a-blue-top-on-the-background-of-a-tree-12319363/ en Pexels.
 - Imagen de Merlin Lightpainting https://www.pexels.com/photo/digital-art-in-close-up-shot-14314636/ en Pexels.
 - Imagen de Merlin Lightpainting https://www.pexels.com/photo/a-blue-face-glowing-11167645/ en Pexels.
+- Imagen de Karolina Grabowska https://www.pexels.com/es-es/foto/labrador-5549/ en Pexels.
+- Imagen de Alotrobo https://www.pexels.com/es-es/foto/fotografia-de-enfoque-selectivo-de-border-collie-blanco-y-negro-adulto-1124002/ en Pexels.
+- Imagen de Benjamin Farren https://www.pexels.com/es-es/foto/animal-perro-mascota-cabeza-15138957/ en Pexels.
+- Imagen de Valeriia Harbuz https://www.pexels.com/es-es/foto/perro-y-champu-12943750/ en Pexels.
