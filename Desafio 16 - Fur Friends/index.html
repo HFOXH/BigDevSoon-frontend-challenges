@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Our unique tag to identify the solution -->
+  <bds />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>BigDevSoon Fur Friends challenge</title>
+
+  <!-- TailwindCSS for styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main flex items-start justify-center min-h-screen p-8">
+    <div class="w-[1000px] mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg-grid-cols-2 gap-20 items-start">
+            <div class="w-full flex justify-center items-center">
+                <div class="w-[400px]">
+                    <div class="bg-white p-6 shadow-2xl rounded-3xl">
+                        <div class="flex items-center space-x-2 text-xl mt-4">
+                            <i class="fa-solid fa-shield-dog"></i>
+                            <p class="font-bold">FurEver Friends</p>
+                        </div>
+                        <div class="relative w-full my-8">
+                            <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                            <input type="text" class="w-full p-2 pl-10 bg-gray rounded-md" placeholder="Search for a friend"/>
+                          </div>
+                        <div class="flex flex-col space-y-6">
+                            <div class="personal-shadow rounded-2xl">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center">
+                                        <img class="object-cover h-[130px] w-[130px] rounded-2xl" src="https://images.pexels.com/photos/12943750/pexels-photo-12943750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dog">
+                                        <div class="ml-4 flex flex-col space-y-2">
+                                            <div class="flex items-center space-x-2">
+                                                <p class="font-bold text-xl">Lola</p>
+                                                <i class="fa-solid fa-venus color-venus"></i>
+                                            </div>
+                                            <p>Jack Russell Terrier</p>
+                                            <div class="flex items-center space-x-2">
+                                                <i class="fa-solid fa-location-dot color-pink"></i>
+                                                <p class="text-xs">2,5 miles</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <i class="fa-regular fa-heart pr-2"></i>
+                                </div>
+                            </div>
+
+                            <div class="personal-shadow rounded-2xl">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center">
+                                        <img class="object-cover h-[130px] w-[130px] rounded-2xl" src="https://images.pexels.com/photos/5549/yellow-dog-pet-labrador-5549.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dog">
+                                        <div class="ml-4 flex flex-col space-y-2">
+                                            <div class="flex items-center space-x-2">
+                                                <p class="font-bold text-xl">Bailey</p>
+                                                <i class="fa-solid fa-mars color-mars"></i>
+                                            </div>
+                                            <p>Labrador Retriever</p>
+                                            <div class="flex items-center space-x-2">
+                                                <i class="fa-solid fa-location-dot color-pink"></i>
+                                                <p class="text-xs">10 miles</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <i class="fa-solid fa-heart pr-2 color-pink"></i>
+                                </div>
+                            </div>
+
+                            <div class="personal-shadow rounded-2xl">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center">
+                                        <img class="object-cover h-[130px] w-[130px] rounded-2xl" src="https://images.pexels.com/photos/1124002/pexels-photo-1124002.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dog">
+                                        <div class="ml-4 flex flex-col space-y-2">
+                                            <div class="flex items-center space-x-2">
+                                                <p class="font-bold text-xl">Buddy</p>
+                                                <i class="fa-solid fa-mars color-mars"></i>
+                                            </div>
+                                            <p>Border Colie</p>
+                                            <div class="flex items-center space-x-2">
+                                                <i class="fa-solid fa-location-dot color-pink"></i>
+                                                <p class="text-xs">33 miles</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <i class="fa-regular fa-heart pr-2"></i>
+                                </div>
+                            </div>
+
+                            <div class="personal-shadow rounded-2xl">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center">
+                                        <img class="object-cover h-[130px] w-[130px] rounded-2xl" src="https://images.pexels.com/photos/15138957/pexels-photo-15138957/free-photo-of-animal-perro-mascota-cabeza.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dog">
+                                        <div class="ml-4 flex flex-col space-y-2">
+                                            <div class="flex items-center space-x-2">
+                                                <p class="font-bold text-xl">Tucker</p>
+                                                <i class="fa-solid fa-mars color-mars"></i>
+                                            </div>
+                                            <p>German Shepherd</p>
+                                            <div class="flex items-center space-x-2">
+                                                <i class="fa-solid fa-location-dot color-pink"></i>
+                                                <p class="text-xs">64 miles</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <i class="fa-regular fa-heart pr-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full flex justify-center items-center">
+                <div class="w-[400px]">
+                    <div class="bg-white shadow-2xl rounded-3xl">
+                        <div class="relative">
+                            <img class="object-cover h-[400px] w-full rounded-2xl" src="https://images.pexels.com/photos/5549/yellow-dog-pet-labrador-5549.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                            <i class="fa-solid fa-arrow-left absolute top-4 left-4"></i>
+                            <i class="fa-solid fa-heart color-pink absolute top-4 right-4"></i>
+                        </div>
+                        <div class="p-4">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <div class="flex space-x-2 items-center">
+                                        <p class="text-xl font-bold">Bailey</p>
+                                        <i class="fa-solid fa-mars color-mars"></i>
+                                    </div>
+                                    <p class="font-thin text-gray-600">Labrador Retriever</p>
+                                </div>
+                                <div class="flex items-center space-x-2">
+                                    <i class="fa-solid fa-location-dot color-pink"></i>
+                                    <p class="text-xs">2,5 miles</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="flex justify-between items-center">
+                                <div class="py-2 px-4 bg-gray rounded-md w-[90px] text-center">
+                                    <p class="font-bold">Age</p>
+                                    <p>6 yr</p>
+                                </div>
+                                <div class="py-2 px-4 bg-gray rounded-md w-[90px] text-center">
+                                    <p class="font-bold">Height</p>
+                                    <p>35 inch</p>
+                                </div>
+                                <div class="py-2 px-4 bg-gray rounded-md w-[90px] text-center">
+                                    <p class="font-bold">Weight</p>
+                                    <p>17 lb</p>
+                                </div>
+                            </div>
+                            <br>
+                            <p>Bailey is a gentle and loving Labrador Retriever who is eagerly awaiting her forever home. With his beautifull... <span class="color-pink uppercase cursor-pointer">SEE MORE</span></p>
+                            <br>
+                            <div class="flex space-x-4">
+                                <button class="bg-gray py-2 px-4 rounded font-bold w-[200px]">Donate <i class="pl-1 fa-solid fa-circle-dollar-to-slot"></i></button>
+                                <button class="bg-pink w-full rounded font-bold text-white">Adopt <i class="pl-1 fa-solid fa-paw"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
