@@ -20,7 +20,7 @@
         <div class="flex items-center justify-center space-x-2">
             <div class="w-20">
                 <div class="w-12 h-12 bg-white rounded-lg flex items-center justify-center cursor-pointer" onclick="prevSlide()">
-                    <i class="fa-solid fa-chevron-left text-gray-400 text-xl"></i>
+                    <i class="fa-solid fa-angle-left text-gray-400 text-xl"></i>
                 </div>
             </div>
             <div class="w-[800px] relative">
@@ -32,19 +32,20 @@
                 <div class="slides-container">
                     <div class="slide active flex bg-white rounded-md shadow-md">
                         <div class="w-[400px]">
-                            <img class="w-full h-full object-cover rounded-tl-md rounded-bl-md" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSI7U2olywPTxte1UeyxfEUgFIdVsrvFwmppynrRHN8kXqm4mGO">
+                            <img src="https://i1.sndcdn.com/avatars-luuy9ufwNbFQbM7B-DGyJWw-t500x500.jpg"
+                                class="w-full h-full object-cover rounded-tl-md rounded-bl-md">
                         </div>
                         <div class="px-8 py-4 w-[600px]">
                             <h2 class="text-xl font-bold">The rise of quantum computing: A paradigm shift in technology</h2>
                             <br>
-                            <p class="font-thin">Quantum computing, once relegated to the realm of science fiction, is now becoming a tangible reality, promising to revolutionize the way we process information. Unlike classical computers, ‘that use bits to represent either a 0 ora, quantum ‘computers leverage quantum bits, or qubits, which</p>
+                            <p class="font-thin">Quantum computing, once relegated to the realm of science fiction, is now becoming a tangible realty, promising to revolutionize the way we process information. Unlike classical computers, that use bits to represent either a 0 or a, quantum computers leverage quantum bits, or qubits, which</p>
                             <br>
                             <div class="flex justify-between items-center">
                                 <div class="flex space-x-4">
-                                    <img class="w-12 h-12 min-w-[40px] min-h-[40px] object-cover rounded-full fñex shrink-0" src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="person1">
+                                    <img class="w-12 h-12 min-w-[40px] min-h-[40px] object-cover rounded-full flex shrink-0" src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
                                     <div>
                                         <p class="font-bold">Paul J. Yarnell</p>
-                                        <p class="font-thin">24 Feb 2024</p>
+                                        <p class="font-thin">24 Feb. 2024</p>
                                     </div>
                                 </div>
                                 <div class="bg-neutral-200 w-6 h-6 flex justify-center items-center rounded">
@@ -53,30 +54,60 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex justify-center items-end mt-4 space-x-2">
-                        <div class="h-2 w-2 bg-blue-600 rounded-full cursor-pointer" onclick="goToSlide(0)"></div>
-                        <div class="h-2 w-2 bg-gray-500 rounded-full cursor-pointer" onclick="goToSlide(1)"></div>
+                    <div class="slide hidden flex bg-white rounded-md shadow-md">
+                        <div class="w-[400px]">
+                            <img src="https://via.placeholder.com/400"
+                                class="w-full h-full object-cover rounded-tl-md rounded-bl-md">
+                        </div>
+                        <div class="px-8 py-4 w-[600px]">
+                            <h2 class="text-xl font-bold">Slide 2 Title</h2>
+                            <br>
+                            <p class="font-thin">Slide 2 content goes here...</p>
+                            <br>
+                            <div class="flex justify-between items-center">
+                                <div class="flex space-x-4">
+                                    <img class="w-12 h-12 min-w-[40px] min-h-[40px] object-cover rounded-full flex shrink-0"
+                                        src="https://via.placeholder.com/40">
+                                    <div>
+                                        <p class="font-bold">Author Name</p>
+                                        <p class="font-thin">Date</p>
+                                    </div>
+                                </div>
+                                <div class="bg-neutral-200 w-6 h-6 flex justify-center items-center rounded">
+                                    <i class="fa-solid fa-share"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!-- Add more slides as needed -->
+                </div>
+                <div class="flex justify-center items-end mt-4 space-x-2">
+                    <div class="h-2 w-2 bg-blue-600 rounded-full cursor-pointer" onclick="goToSlide(0)"></div>
+                    <div class="h-2 w-2 bg-gray-500 rounded-full cursor-pointer" onclick="goToSlide(1)"></div>
+                    <!-- Add more indicators as needed -->
                 </div>
             </div>
             <div class="w-20">
                 <div class="w-12 h-12 bg-white rounded-lg flex items-center justify-center cursor-pointer" onclick="nextSlide()">
-                    <i class="fa-solid fa-chevron-right text-gray-400 text-xl"></i>
+                    <i class="fa-solid fa-angle-right text-gray-400 text-xl"></i>
                 </div>
             </div>
         </div>
         <div class="absolute bottom-[120px] right-[80px]">
-            <div class="bg-white rounded-lg cursro-pointer text-center flex justify-center items-center p-8 shadow-xl">
+            <div class="bg-white rounded-lg cursor-pointer text-center flex justify-center items-center p-8 shadow-xl">
                 <div class="relative flex flex-col items-center space-y-4">
                     <div class="bg-dark p-4 rounded-xl text-white relative flex space-x-6">
                         <i class="fa-brands fa-facebook"></i>
                         <i class="fa-brands fa-x-twitter"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <div class="absolute left-[30%] -translate-x-1/2 -bottom-[10px] w-0 h-0
+                        <i class="fa-brands fa-linkedin"></i>
+                        
+                        <div class="absolute left-[30%] -translate-x-1/2 -bottom-[10px] w-0 h-0 
                                     border-l-[10px] border-l-transparent
                                     border-r-[10px] border-r-transparent
-                                    border-t-[10px] border-t-black"></div>
+                                    border-t-[10px] border-t-black">
+                        </div>
                     </div>
+        
                     <div class="bg-blue-100 ring-2 ring-blue-500 w-8 h-8 flex justify-center items-center rounded">
                         <i class="fa-solid fa-share"></i>
                     </div>
