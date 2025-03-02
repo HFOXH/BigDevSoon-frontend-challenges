@@ -111,3 +111,12 @@ Si tienes sugerencias o mejoras, ¡estaré encantado de leerlas! 😃
 - Imagen de Alotrobo https://www.pexels.com/es-es/foto/fotografia-de-enfoque-selectivo-de-border-collie-blanco-y-negro-adulto-1124002/ en Pexels.
 - Imagen de Benjamin Farren https://www.pexels.com/es-es/foto/animal-perro-mascota-cabeza-15138957/ en Pexels.
 - Imagen de Valeriia Harbuz https://www.pexels.com/es-es/foto/perro-y-champu-12943750/ en Pexels.
+- Imagen de Vinicius "amnx" Amano https://unsplash.com/es/fotos/pintura-abstracta-multicolor-f9oQZOk9vnk en Unplash.
+- Imagen de Sean Sinclair https://wallspic.com/es/image/125523-degradado_de_color-degradado/3840x2160 en wallspic.
+- Imagen de Alipko https://depositphotos.com/es/photos/photo-light-pink-blurred-bright-pattern.html?offset=100&qview=594959324 en depositphotos.
+- Imagen https://miro.medium.com/v2/resize:fit:720/format:webp/1*Wks3KNqtfRq8L1Al3KDFdg.jpeg
+- Imagen de resource Boy https://www.pexels.com/photo/colorful-background-wallpaper-4k-18541706/ en Pexels.
+- Imagen https://www.smartresize.com/es/hd-wallpaper-desktop-dpows SmartResize en HD Wallpaper.
+- Imagen de Codioful (formerly Gradient) https://www.pexels.com/es-es/foto/azul-claro-fondo-de-pantalla-4k-fondo-de-pantalla-del-iphone-fondo-abstracto-7135052/ en Pexels.
+- Imagen de Prawethida K https://unsplash.com/es/fotos/multicolored-abstract-illustration-5Ui5glVjUAQ en Unplash.
+- Imagen de Petr Ganaj https://www.pexels.com/photo/marble-texture-on-a-ceiling-19094148/ en Pexels.
