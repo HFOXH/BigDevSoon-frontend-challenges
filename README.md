@@ -120,3 +120,5 @@ Si tienes sugerencias o mejoras, ¡estaré encantado de leerlas! 😃
 - Imagen de Codioful (formerly Gradient) https://www.pexels.com/es-es/foto/azul-claro-fondo-de-pantalla-4k-fondo-de-pantalla-del-iphone-fondo-abstracto-7135052/ en Pexels.
 - Imagen de Prawethida K https://unsplash.com/es/fotos/multicolored-abstract-illustration-5Ui5glVjUAQ en Unplash.
 - Imagen de Petr Ganaj https://www.pexels.com/photo/marble-texture-on-a-ceiling-19094148/ en Pexels.
+- Imagen de Pixabay https://www.pexels.com/es-es/foto/fotografia-secuencial-de-luces-azules-373543/ en Pexels.
+- Imagen de German Suarez https://www.pexels.com/es-es/foto/oscuro-fuego-vela-ardiente-14160389/ en Pexels
