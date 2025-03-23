@@ -3,53 +3,85 @@
 Este repositorio contiene mis soluciones a los desafíos de **BigDevSoon**, enfocados en mejorar mis habilidades en **HTML, CSS, tailwind y JavaScript**. 🚀  
 
 ## 📌 Desafíos resueltos  
-✅ **Profile Card**   
+✅ **1 - Profile Card**   
 ```HTML y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%201%20-%20Profile%20Card))  
 
-✅ **Add to bag**   
+✅ **2 - Add to bag**   
 ```HTML, JS y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%202%20-%20Add%20to%20bag))  
 
-✅ **Mobile Navigation**  
+✅ **3 - Mobile Navigation**  
 ```HTML y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%203%20-%20Mobile%20Navigation))  
 
-✅ **Contact Us**   
+✅ **4 - Contact Us**   
 ```HTML y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%204%20-%20Contact%20Us))  
 
-✅ **Recipe**   
+✅ **5 - Recipe**   
 Diseño de Recipe con HTML  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%205%20-%20Recipe))  
 
-✅ **Image Carousel**   
+✅ **6 - Image Carousel**   
 ```HTML, JS y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%206%20-%20Image%20Carousel)) 
 
-✅ **Create Account**   
+✅ **7 - Create Account**   
 ```HTML y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%207%20-%20Create%20Account)) 
 
-✅ **Music Events**   
+✅ **8 - Music Events**   
 ```HTML y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%208%20-%20Music%20Events)) 
 
-✅ **Generate Password**   
+✅ **9 - Generate Password**   
 ```HTML, JS y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%209%20-%20Generate%20Password)) 
 
-✅ **Sign Up Page**   
+✅ **10 - Sign Up Page**   
 ```HTML y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2010%20-%20Sign%20Up%20Page)) 
 
-✅ **Hotel Booking**   
+✅ **11 - Hotel Booking**   
 ```HTML, JS y CSS```  
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2011%20-%20Hotel%20Booking)) 
 
-✅ **Restaurant Reservation**   
+✅ **12 - Restaurant Reservation**   
 ```HTML y CSS```   
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2012%20-%20Restauran%20Reservation))
+
+✅ **13 - Task Board**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2013%20-%20Task%20Board))
+
+✅ **14 - Task Board**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2014%20-%20Shopping%20List))
+
+✅ **15 - Notifications**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2015%20-%20Notifications))
+
+✅ **16 - Fur Friends**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2016%20-%20Fur%20Friends))
+
+✅ **17 - Article Slider**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2017%20-%20Article%20Slider))
+
+✅ **18 - Images Preview**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2018%20-%20Images%20Preview))
+
+✅ **19 - Upload Images**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2019%20-%20Uplod%20Images))
+
+✅ **20 - Card Wallet**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2020%20-%20Card%20Wallet))
 
 ✏️ Próximamente más desafíos...  
 
