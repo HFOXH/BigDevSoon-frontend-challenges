@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDevSoon Card Wallet challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main flex flex-col items-center justify-center min-h-screen">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-24 items-start mt-5 min-h-screen">
+        <div class="w-full pt-8">
+            <div class="bg-white text-gray-800 rounded-5xl w-[500px]">
+                <div class="bg-new-black text-white p-8 space-y-4 rounded-3xl rounded-t-5xl w-[500px]">
+                    <p>Welcome</p>
+                    <h2 class="text-xl font-semibold mb-4">My Cards</h2>
+                    <div class="text-white bg-gradient-to-br from-blue-500 via-purple-700 to-pink-500 rounded-xl relative p-5">
+                        <p>Balance</p>
+                        <p class="text-3xl">$4,387</p>
+                        <p class="mt-2 text-xl tracking-widest">•••• •••• •••• 2390</p>
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="mt-2">Expires</p>
+                                <p class="mt-2">04/26</p>
+                            </div>
+                            <span class="text-3xl font-bold">VISA</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center space-x-2">
+                        <div class="w-3 h-3 bg-light-pink rounded-full cursor-pointer"></div>
+                        <div class="w-3 h-3 bg-gray-500 rounded-full cursor-pointer"></div>
+                        <div class="w-3 h-3 bg-gray-500 rounded-full cursor-pointer"></div>
+                        <div class="w-3 h-3 bg-gray-500 rounded-full cursor-pointer"></div>
+                    </div>
+                </div>
+                <div class="relative w-full h-[140px] bg-transparent overflow-hidden">
+                    <svg class="absolute bottom-[84px] left-0 w-full h-full" viewBox="0 0 859 296" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                        <circle cx="429.858" cy="182.913" r="112.562" fill="#060316"/>
+                        <rect x="0.715576" width="858.284" height="175.878" fill="#060316"/>
+                        <rect x="356.566" y="7.03512" width="175.878" height="175.878" transform="rotate(48.0115 356.566 7.03512)" fill="#060316"/>
+                        <rect width="175.878" height="175.878" transform="matrix(-0.689413 0.724368 0.724368 0.689413 508.766 6.90136)" fill="#060316"/>
+                    </svg>
+                    <div class="absolute bottom-[100px] left-1/2 transform -translate-x-1/2">
+                        <button class="w-10 h-10 bg-light-pink text-white rounded-full flex items-center justify-center text-2-xl">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="p-8" style="margin-top: -100px;">
+                    <h2 class="text-lg font-semibold mb-4">Transactions</h2>
+                    <div class="flex flex-col space-y-4">
+                        <div class="flex justify-between items-center">
+                            <div class="flex space-x-4">
+                                <img src="https://www.emojiall.com/images/120/facebook/2.1/2708.png" class="object-cover bg-blue h-14 w-14 p-2 rounded">
+                                <div>
+                                    <p class="font-bold">Travel</p>
+                                    <p class="text-neutral-400">3 days ago</p>
+                                </div>
+                            </div>
+                            <p class="bg-light-red text-red-500 rounded font-medium px-1">-$ 200,00</p>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <div class="flex space-x-4">
+                                <img src="https://www.emojiall.com/images/240/microsoft/1f354.png" class="object-cover bg-green h-14 w-14 p-2 rounded">
+                                <div>
+                                    <p class="font-bold">Food</p>
+                                    <p class="text-neutral-400">5 days ago</p>
+                                </div>
+                            </div>
+                            <p class="bg-light-red text-red-500 rounded font-medium px-1">-$ 200,00</p>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <div class="flex space-x-4">
+                                <img src="https://www.emojiall.com/images/120/joypixels/5.5/1f4bc.png" class="object-cover bg-red h-14 w-14 p-2 rounded">
+                                <div>
+                                    <p class="font-bold">Work</p>
+                                    <p class="text-neutral-400">6 days ago</p>
+                                </div>
+                            </div>
+                            <p class="bg-light-green text-green-500 rounded font-medium px-1">+$ 2400,00</p>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <div class="flex space-x-4">
+                                <img src="https://www.emojiall.com/images/120/blobmoji/emoji_u1f455.png" class="object-cover bg-green-neon h-14 w-14 p-2 rounded">
+                                <div>
+                                    <p class="font-bold">Shopping</p>
+                                    <p class="text-neutral-400">6 days ago</p>
+                                </div>
+                            </div>
+                            <p class="bg-light-red text-red-500 rounded font-medium px-1">-$ 140,00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full">
+            <div class="bg-white text-gray-800 rounded-5xl w-[500px] h-[730px] flex flex-col p-8">
+                <i class="fa-solid fa-arrow-left text-xl"></i>
+                <h2 class="text-xl font-semibold mb-4">Add a card</h2>
+
+                <form class="flex flex-col flex-grow">
+                    <div class="space-y-4 flex-grow">
+                        <input type="text" placeholder="John Doe" class="w-full p-3 border rounded-lg" value="John Doe">
+                        <input type="text" placeholder="4001 9192 5753 7193" class="w-full p-3 border rounded-lg" value="4001 9192 5753 7193">
+                        <div class="flex space-x-4">
+                            <input type="text" placeholder="09/2026" class="w-1/2 p-3 border rounded-lg" value="09/2026">
+                            <input type="text" placeholder="CVC Code" class="w-1/2 p-3 border rounded-lg">
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <label for="toggle" class="flex items-center cursor-pointer select-none">
+                                <div class="relative">
+                                    <input type="checkbox" id="toggle" class="peer sr-only">
+                                    <div class="block w-10 h-6 bg-gray-300 rounded-full peer-checked:bg-fuchsia-500 transition"></div>
+                                    <div class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-all peer-checked:translate-x-4"></div>
+                                </div>
+                            </label>
+                            <label class="text-gray-700">Set as Default Card</label>
+                        </div>
+                    </div>
+                    <button class="w-full bg-gradient-to-r from-purple-300 to-purple-800 text-white p-3 rounded-lg mt-auto">Add New Card</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
