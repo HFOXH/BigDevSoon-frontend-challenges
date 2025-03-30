@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.bg-main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://santic.netlify.app/assets/img-challenge/challenge21.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.color-purple{
+    color: #5542dd;
+}
+
+.bg-purple{
+    background-color: #5343e1;
+}
+
+.bg-orange{
+    background-color: #fec88d;
+}
+
+.bg-pink{
+    background-color: #fde5f9;
+}
+
+.peer:checked ~ .peer-checked\:bg-purple{
+    --tw-bg-opacity: 1;
+    background-color: #5343e1;
+}

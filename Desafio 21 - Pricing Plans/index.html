@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDevSoon Pricing Plans challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main p-14 w-screen overflow-x-hidden relative">
+    <div class="h-10 w-10 bg-orange absolute rounded-full top-80 left-40"></div>
+    <div class="h-14 w-14 bg-pink absolute rounded-full top-7 right-40"></div>
+    <div class="h-16 w-16 bg-purple absolute rounded-full bottom-40 right-5"></div>
+    <div class="bg-white text-gray-800 p-8 space-y-4 rounded-xl w-full max-w-full md:h-[930px]">
+        <p class="text-center font-semibold mt-12">Find ideal plan</p>
+        <p class="text-center text-6xl font-semibold">Unlock <span class="color-purple underline">Your Best-Fit</span> Plan Today</p>
+        <div class="flex items-center justify-center cursor-pointer select-none space-x-3 py-6">
+            <p class="text-neutral-400">Billed annually</p>
+            <label for="toggle" class="flex items-center cursor-pointer select-none">
+                <div class="relative">
+                    <input type="checkbox" id="toggle" class="peer sr-only" checked>
+                    <div class="block w-10 h-6 bg-gray-300 rounded-full peer-checked:bg-purple transition"></div>
+                    <div class="absolute left-0.5 top-0.5 w-5 h-5 bg-white rounded-full transition-all peer-checked:translate-x-4"></div>
+                </div>
+            </label>
+            <p class="font-medium">Billed monthly</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1000px] w-full mx-auto px-4 pt-10">
+            <div class="flex justify-center">
+                <div class="shadow-[0_5px_30px_rgba(0,0,0,0.1)] bg-purple rounded-2xl p-6 max-h-[450px] h-[450px] w-full max-w-[320px] flex flex-col justify-between relative overflow-hidden">
+                    <div class="bg-orange absolute px-8 py-1 top-5 -right-8 rotate-45 text-sm font-medium">
+                        <p>Best value</p>
+                    </div>
+                    <div class="text-white">
+                        <p class="text-xs">All in one</p>
+                        <p class="text-2xl font-medium">Professional</p>
+                        <p class="font-medium">$39.99 <span class="text-neutral-400 font-normal">/month</span></p>
+                        <ul class="list-disc my-6 px-4">
+                            <li><p class="text-neutral-300">All core features</p></li>
+                            <li><p class="text-neutral-300">Priority support</p></li>
+                            <li><p class="text-neutral-300">Quarterly reviews</p></li>
+                            <li><p class="text-neutral-300">Custom branding</p></li>
+                            <li><p class="text-neutral-300">10GB storage</p></li>
+                        </ul>
+                    </div>
+                    <button class="rounded-lg bg-white p-3 font-medium text-sm">Try free for 30 days</button>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="shadow-[0_5px_30px_rgba(0,0,0,0.1)] bg-white rounded-2xl p-6 max-h-[450px] h-[450px] w-full max-w-[320px] flex flex-col justify-between relative overflow-hidden">
+                    <div class="text-gray-800">
+                        <p class="text-xs">Basic</p>
+                        <p class="text-2xl font-medium">Standard</p>
+                        <p class="font-medium">$29.99 <span class="text-neutral-400 font-normal">/month</span></p>
+                        <ul class="list-disc my-6 px-4">
+                            <li>Most core features</li>
+                            <li>Email support</li>
+                            <li>Annual reviews</li>
+                            <li>Limited branding</li>
+                            <li>5GB storage</li>
+                        </ul>
+                    </div>
+                    <button class="rounded-lg bg-orange p-3 font-medium text-sm">Try free for 30 days</button>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="shadow-[0_5px_30px_rgba(0,0,0,0.1)] bg-white rounded-2xl p-6 max-h-[450px] h-[450px] w-full max-w-[320px] flex flex-col justify-between relative overflow-hidden">
+                    <div class="text-gray-800">
+                        <p class="text-xs">Better results</p>
+                        <p class="text-2xl font-medium">Ultimate</p>
+                        <p class="font-medium">$49.99 <span class="text-neutral-400 font-normal">/month</span></p>
+                        <ul class="list-disc my-6 px-4">
+                            <li>All features, including premium</li>
+                            <li>24/7 priority support</li>
+                            <li>Dedicated account manager</li>
+                            <li>Fully customizable branding</li>
+                            <li>Unlimited storage</li>
+                        </ul>
+                    </div>
+                    <button class="rounded-lg bg-purple p-3 font-medium text-sm text-white">Try free for 30 days</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
