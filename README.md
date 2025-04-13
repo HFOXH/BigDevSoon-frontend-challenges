@@ -153,4 +153,12 @@ Si tienes sugerencias o mejoras, ¡estaré encantado de leerlas! 😃
 - Imagen de Prawethida K https://unsplash.com/es/fotos/multicolored-abstract-illustration-5Ui5glVjUAQ en Unplash.
 - Imagen de Petr Ganaj https://www.pexels.com/photo/marble-texture-on-a-ceiling-19094148/ en Pexels.
 - Imagen de Pixabay https://www.pexels.com/es-es/foto/fotografia-secuencial-de-luces-azules-373543/ en Pexels.
-- Imagen de German Suarez https://www.pexels.com/es-es/foto/oscuro-fuego-vela-ardiente-14160389/ en Pexels
+- Imagen de German Suarez https://www.pexels.com/es-es/foto/oscuro-fuego-vela-ardiente-14160389/ en Pexels.
+- Imagen de  en Pexels.
+- Imagen de Hatice Baran https://www.pexels.com/photo/man-in-coat-at-beach-14783579/ en Pexels.
+- Imagen de Ludovic Delot https://www.pexels.com/photo/a-girl-standing-in-a-library-wearing-ripped-jeans-17759549/ en Pexels.
+- Imagen de Dante Muñoz https://www.pexels.com/photo/a-woman-with-her-hair-in-a-houndstooth-sweater-16346894/ en Pexels.
+- Imagen de Cottonbro studio https://www.pexels.com/photo/man-in-gray-sweater-and-black-bonnet-using-cellphone-with-view-of-mountain-on-background-9950569/ en Pexels.
+- Imagen de Daniel Xavier https://www.pexels.com/photo/man-wearing-gray-and-red-crew-neck-shirt-smiling-1121796/ en Pexels.
+- Imagen de Guilherme Almeida https://www.pexels.com/photo/woman-sitting-and-smiling-1858175/ en Pexels.
+- Imagen de Hannah Nelson https://www.pexels.com/photo/close-up-photography-of-a-woman-near-wall-1065084/ en Pexels.
