@@ -162,3 +162,6 @@ Si tienes sugerencias o mejoras, ¡estaré encantado de leerlas! 😃
 - Imagen de Daniel Xavier https://www.pexels.com/photo/man-wearing-gray-and-red-crew-neck-shirt-smiling-1121796/ en Pexels.
 - Imagen de Guilherme Almeida https://www.pexels.com/photo/woman-sitting-and-smiling-1858175/ en Pexels.
 - Imagen de Hannah Nelson https://www.pexels.com/photo/close-up-photography-of-a-woman-near-wall-1065084/ en Pexels.
+- Imagen de Annie Spratt https://unsplash.com/es/fotos/hoja-verde-hX_hf2lPpUU en Unsplash.
+- Imagen de Galina N https://unsplash.com/es/fotos/green-succulent-in-teal-ceramic-vase-miziNqvJx5M en Unsplash.
+- Imagen de Mong Bui https://unsplash.com/es/fotos/foto-de-primer-plano-de-la-planta-de-serpiente-verde-en-maceta-NznxEfw9iVI en Unsplash.
