@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDevSoon Movie Ticket challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main flex flex-col items-center justify-center min-h-screen">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-24">
+        <div class="w-full">
+            <div class="relative w-[400px] h-[450px] overflow-hidden rounded-4xl bg-black z-0">
+                <img src="https://4kwallpapers.com/images/walls/thumbs_3t/14463.jpg" class="absolute z-0 main-img">
+            </div>
+            <div class="w-[400px] max-w-[400px] bg-white rounded-4xl relative z-10 -mt-14 p-6">
+                <div class="flex flex-col space-y-4">
+                    <h2 class="font-bold text-3xl">Madame Webb</h2>
+                    <div class="flex justify-between items-center text-sm">
+                        <p>Action/ Adventure/ Sci-Fi</p>
+                        <p>2h 13m</p>
+                    </div>
+                    <p>Cassandra Webb develops the power to see the future. Forced to confront revelations about the past, she forges a reslationshi with...</p>
+                    <h2 class="font-bold text-2-xl">Cast</h2>
+                    <div class="flex space-x-4 mb-4">
+                        <img src="https://images.pexels.com/photos/17759549/pexels-photo-17759549/free-photo-of-a-girl-standing-in-a-library-wearing-ripped-jeans.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="w-14 h-14 rounded-lg object-cover">
+                        <img src="https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="w-14 h-14 rounded-lg object-cover">
+                        <img src="https://images.pexels.com/photos/16346894/pexels-photo-16346894/free-photo-of-a-woman-with-her-hair-in-a-houndstooth-sweater.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="w-14 h-14 rounded-lg object-cover">
+                    </div>
+                </div>
+                <button class="bg-orange block w-full text-white font-semibold py-3 rounded-md -mt-4 z-10 relative">Buy Tickets</button>
+            </div>
+        </div>
+
+        <div class="w-full">
+            <div class="relative w-[400px] h-[450px] overflow-hidden rounded-4xl bg-purple z-0 p-6 -mt-14">
+                <div class="flex items-center text-white space-x-6">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <h2 class="font-semibold text-[20px]">Choose seats</h2>
+                </div>
+                <div class="relative w-[350px] h-[250px] flex flex-col items-center justify-start">
+                    <!-- Pantalla Curva -->
+                    <br>
+                    <div class="relative w-[300px] h-[40px] overflow-hidden">
+                        <div class="w-[400px] h-[200px] rounded-b-full border-b-8 border border-white rotate-180 absolute left-1/2 transform -translate-x-1/2">
+                        </div>
+                    </div>
+                    <!-- Luz -->
+                    <div class="absolute top-[28px] w-[400px] h-full bg-gradient-to-b from-white/20 to-transparent rounded-t-full"></div>
+
+                    <div class="flex flex-col space-y-2 mt-8 z-10">
+                        <div class="flex space-x-2 items-center justify-center">
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                        </div>
+                        <div class="flex space-x-2 items-center justify-center">
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat border-orange bg-orange h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat border-orange bg-orange h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                        </div>
+                        <div class="flex space-x-2 items-center justify-center">
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                        </div>
+                        <div class="flex space-x-2 items-center justify-center">
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat seat-reserved h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat seat-reserved h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat seat-reserved h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                        </div>
+                        <div class="flex space-x-2 items-center justify-center">
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat seat-reserved h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat seat-reserved h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                        </div>
+                        <div class="flex space-x-2 items-center justify-center">
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat seat-reserved h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat seat-reserved h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                            <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-center space-x-4 mt-6">
+                    <div class="flex items-center space-x-2">
+                        <button class="seat border-orange bg-orange h-5 w-5 border border-b-2 rounded"></button>
+                        <p class="text-white">Selected</p>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <button class="seat seat-reserved h-5 w-5 border border-b-2 rounded"></button>
+                        <p class="text-white">Reserved</p>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <button class="seat available border-white h-5 w-5 border border-b-2 rounded"></button>
+                        <p class="text-white">Available</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="w-[400px] max-w-[400px] bg-white rounded-4xl relative z-10 -mt-14 p-6">
+                <div class="flex flex-col space-y-6">
+                    <div>
+                        <h2 class="font-medium mb-2">Date</h2>
+                        <div id="date-options" class="grid grid-cols-4 gap-2">
+                            <button class="date-btn text-gray-400 border border-gray-300 rounded-md px-4 py-2 text-sm">21 Feb</button>
+                            <button class="date-btn selected text-orange-500 border border-orange-500 rounded-md px-4 py-2 text-sm">22 Feb</button>
+                            <button class="date-btn text-gray-400 border border-gray-300 rounded-md px-4 py-2 text-sm">23 Feb</button>
+                            <button class="date-btn text-gray-400 border border-gray-300 rounded-md px-4 py-2 text-sm">24 Feb</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="font-medium mb-2">Time</h2>
+                        <div id="time-options" class="grid grid-cols-4 gap-2">
+                            <button class="time-btn text-gray-400 border border-gray-300 rounded-md px-4 py-2 text-sm">15:15</button>
+                            <button class="time-btn text-gray-400 border border-gray-300 rounded-md px-4 py-2 text-sm">17:45</button>
+                            <button class="time-btn selected text-orange-500 border border-orange-500 rounded-md px-4 py-2 text-sm">20:35</button>
+                            <button class="time-btn text-gray-400 border border-gray-300 rounded-md px-4 py-2 text-sm">22:15</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="mt-6 bg-black w-full text-white font-semibold py-3 rounded-md">Pay</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
