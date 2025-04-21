@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDevSoon Meeting Schedule challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-green-100 flex flex-col items-center justify-center min-h-screen">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-24">
+        <div class="w-full">
+            <!-- Calendar -->
+            <div class="bg-green tex-white rounded-2xl p-4 w-80 mb-6">
+                <div class="flex justify-between items-center mb-4">
+                    <div>
+                        <p class="text-yellow-neon text-sm">Calendar</p>
+                        <h2 id="calendar-title" class="text-xl font-bold text-white">February 2024</h2>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="bg-ultra-light-green text-green-900 rounded-full h-6 w-6"
+                            onclick="changeMonth(-1)">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <button class="bg-ultra-light-green text-green-900 rounded-full h-6 w-6"
+                            onclick="changeMonth(1)">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="grid grid-cols-7 gap-2 text-center text-sm text-green-100 mb-2">
+                    <div>M</div>
+                    <div>T</div>
+                    <div>W</div>
+                    <div>T</div>
+                    <div>F</div>
+                    <div>S</div>
+                    <div>S</div>
+                </div>
+                <div id="days-grid" class="grid grid-cols-7 gap-2 text-center text-sm text-green-100">
+                </div>
+            </div>
+
+            <!-- To do activities -->
+            <div class="bg-white rounded-2xl ml-8 p-4 w-96 relative">
+                <h3 class="text-lg mb-4 font-bold">Today</h3>
+                <div class="space-y-4 mb-10">
+                    <div class="flex items-start gap-4">
+                        <div class="h-4 w-4 bg-pink-500 rounded-full mt-1"></div>
+                        <div>
+                            <p class="font-medium">Weekly Plant Care Workshop</p>
+                            <p class="text-xs text-gray-500">10:00 AM - 11:00 AM</p>
+                        </div>
+                        <span class="ml-auto bg-pink-500 text-white text-xs px-2 py-0.5 rounded-full">Done</span>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="h-4 w-4 bg-blue-400 rounded-full mt-1"></div>
+                        <div>
+                            <p class="font-medium">Succulent Succulents Seminar</p>
+                            <p class="text-xs text-gray-500">1:00 PM - 1:30 PM</p>
+                        </div>
+                        <span class="ml-auto bg-blue-400 text-white text-xs px-2 py-0.5 rounded-full">In progress</span>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="h-4 w-4 bg-indigo-500 rounded-full mt-1"></div>
+                        <div>
+                            <p class="font-medium">Montly Plant Swap</p>
+                            <p class="text-xs text-gray-500">2:00 PM - 3:00 PM</p>
+                        </div>
+                        <span class="ml-auto bg-indigo-500 text-white text-xs px-2 py-0.5 rounded-full">Not
+                            started</span>
+                    </div>
+                </div>
+
+                <button
+                    class="absolute bottom-6 right-6 bg-yellow-neon text-black rounded-lg text-xl shadow-lg h-16 w-16">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+        </div>
+        <div class="w-full">
+            <!-- Add meeting -->
+            <div class="-ml-12">
+                <div class="relative w-[400px] h-[120px] overflow-hidden rounded-4xl bg-green z-0">
+                    <p class="text-white font-bold p-6">Add meeting</p>
+                </div>
+                <div class="w-[400px] bg-white rounded-2xl relative z-10 -mt-14 p-6">
+                    <div class="flex flex-col space-y-4">
+                        <div>
+                            <label class="block text-gray-700 mb-1 font-bold">Title</label>
+                            <input type="text" placeholder="Enter the title"
+                                class="w-full px-4 py-2 bg-gray-100  rounded-md outline-none" />
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 mb-1 font-bold"><i class="fa-solid fa-calendar-week"></i>
+                                Date</label>
+                            <input type="text" placeholder="Friday, 23 February 2024"
+                                class="w-full px-4 py-2 bg-gray-100  rounded-md outline-none" />
+                        </div>
+                        <div class="flex gap-3">
+                            <div class="flex-1">
+                                <label class="block text-gray-700 mb-1 font-bold"><i class="fa-solid fa-clock"></i>
+                                    Start</label>
+                                <input type="text" placeholder="2:00 PM"
+                                    class="w-full px-4 py-2 bg-gray-100  rounded-md outline-none" />
+                            </div>
+                            <div class="flex-1">
+                                <label class="block text-gray-700 mb-1 font-bold"><i class="fa-solid fa-clock"></i>
+                                    End</label>
+                                <input type="text" placeholder="3:00 PM"
+                                    class="w-full px-4 py-2 bg-gray-100  rounded-md outline-none" />
+                            </div>
+                        </div>
+                    </div>
+                    <button class="bg-yellow-neon w-full font-semibold p-3 rounded-md mt-6">Save</button>
+                </div>
+            </div>
+            <br>
+
+            <!-- Clock -->
+            <div class="bg-green-800 rounded-2xl w-full max-w-xs text-white shadow-lg pb-4">
+                <div class="flex justify-between items-center text-sm p-4">
+                    <button onclick="cancelTime()">Cancel</button>
+                    <button onclick="selectTime()" class="text-yellow-neon">Done</button>
+                </div>
+
+                <div class="relative h-48">
+                    <div class="absolute top-1/2 transform -translate-y-1/2 w-full h-10 z-10 pointer-events-none bg-yellow-neon"></div>
+
+                    <div class="absolute top-0 w-full h-1/4 bg-gradient-to-b from-green-800 to-transparent z-20 pointer-events-none"></div>
+
+                    <div class="absolute bottom-0 w-full h-1/4 bg-gradient-to-t from-green-800 to-transparent z-20 pointer-events-none"></div>
+
+                    <div class="grid grid-cols-3 gap-1 px-4 relative z-30 text-xl text-center">
+                        <div id="hours" onscroll="updateSelection()" class="overflow-y-scroll snap-y-mandatory h-48 no-scrollbar"></div>
+                        <div id="minutes" onscroll="updateSelection()" class="overflow-y-scroll snap-y-mandatory h-48 no-scrollbar"></div>
+                        <div id="ampm" onscroll="updateSelection()" class="overflow-y-scroll snap-y-mandatory h-48 no-scrollbar"></div>
+                    </div>
+                </div>
+
+                <!-- Resultado -->
+                 <!--<div class="mt-6 text-center">
+                    <div class="text-yellow-neon text-sm mb-1">Hora seleccionada:</div>
+                    <div class="text-2xl font-bold text-yellow-neon" id="result">12:00 AM</div>
+                 </div>-->
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+.bg-green {
+    background-color: #3d663f;
+}
+
+.bg-yellow-neon {
+    background-color: #f0ff4f;
+}
+
+.bg-ultra-light-green {
+    background-color: #e5ffe8;
+}
+
+.bg-dark-green {
+    background-color: #2b4a30;
+}
+
+.text-yellow-neon {
+    color: #f0ff4f;
+}
+
+.rounded-4xl {
+    border-radius: 2rem;
+}
+
+.snap-y-mandatory {
+    scroll-snap-type: y mandatory;
+}
+
+.snap-center {
+    scroll-snap-align: center;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.selected {
+    color: #000;
+}
