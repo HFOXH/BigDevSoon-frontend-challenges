@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDevSoon Job Board challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main flex flex-col items-center justify-center min-h-screen">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 w-full max-w-7xl">
+        <div class="lg:col-span-2">
+            <div class="bg-light-gray p-6 rounded-3xl">
+                <div class="flex flex-col md:flex-row gap-4">
+                    <div class="relative flex-1">
+                        <span class="absolute inset-y-0 left-3 flex items-center text-gray-400">
+                            <i class="fa-solid fa-search"></i>
+                        </span>
+                        <input type="text" placeholder="Find a job"
+                            class="pl-10 pr-4 py-3 w-full rounded-tl-xl rounded-bl-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-pink-400" />
+                    </div>
+                    <div class="relative -ml-4">
+                        <span class="absolute inset-y-0 left-3 flex items-center text-gray-400">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </span>
+                        <select
+                            class="pl-10 pr-4 py-3 w-full rounded-tr-xl rounded-br-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-pink-400 appear">
+                            <option>Localization</option>
+                        </select>
+                    </div>
+                    <button class="bg-pink text-white px-8 py-3 rounded-xl hover:bg-pink-500 transition">Search</button>
+                </div>
+            </div>
+            <br>
+            <div class="bg-light-gray p-6 rounded-3xl">
+                <div class="flex justify-between items-center mb-6">
+                    <h2 class="font-bold text-xl">Seach Results</h2>
+                    <p>1.100 Results found</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-4">
+                    <div class="p-4 bg-white rounded-2xl hover:shadow-md transition cursor-pointer">
+                        <div class="flex items-center gap-3 mb-2">
+                            <img src="https://i.pinimg.com/originals/57/1c/af/571cafa3bbc8ea80de7e682003f73a62.png"
+                                alt="Netflix" class="w-14 h-14 bg-dark-gray rounded-lg p-2" />
+                            <div class="flex flex-col ml-1 space-y-2 py-2">
+                                <h3 class="font-medium">Backend .Net Developer</h3>
+                                <p class="text-neutral-400 text-sm">Netflix</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2 text-sm text-gray-600 mb-2">
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">Fullstack</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">Angular</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">Azure</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">C#</span>
+                        </div>
+                        <br>
+                        <div class="flex justify-between items-center text-sm text-gray-500">
+                            <div class="flex items-center justify-start space-x-2">
+                                <svg class="w-4 h-4 fill-current text-pink" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M15.5 15.5C16.33 15.5 17 14.83 17 14C17 13.17 16.33 12.5 15.5 12.5C14.67 12.5 14 13.17 14 14C14 14.83 14.67 15.5 15.5 15.5M7 3H17C18.11 3 19 3.9 19 5V7C20.11 7 21 7.9 21 9V19C21 20.11 20.11 21 19 21H7C4.79 21 3 19.21 3 17V7C3 4.79 4.79 3 7 3M17 7V5H7C5.9 5 5 5.9 5 7V7.54C5.59 7.2 6.27 7 7 7H17M5 17C5 18.11 5.9 19 7 19H19V9H7C5.9 9 5 9.9 5 11V17Z" />
+                                </svg>
+                                <p class="font-medium text-black">$13k/month</p>
+                            </div>
+                            <span>6 mins ago</span>
+                        </div>
+                    </div>
+
+                    <div class="p-4 bg-white rounded-2xl hover:shadow-md transition cursor-pointer">
+                        <div class="flex items-center gap-3 mb-2">
+                            <img src="https://img.icons8.com/?size=512&id=17949&format=png"
+                                alt="Google" class="w-14 h-14 bg-dark-gray rounded-lg p-2" />
+                            <div class="flex flex-col ml-1 space-y-2 py-2">
+                                <h3 class="font-medium">Mid Fullstack Developer</h3>
+                                <p class="text-neutral-400 text-sm">Google</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2 text-sm text-gray-600 mb-2">
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">Fullstack</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">Angular</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">Azure</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">C#</span>
+                        </div>
+                        <br>
+                        <div class="flex justify-between items-center text-sm text-gray-500">
+                            <div class="flex items-center justify-start space-x-2">
+                                <svg class="w-4 h-4 fill-current text-pink" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M15.5 15.5C16.33 15.5 17 14.83 17 14C17 13.17 16.33 12.5 15.5 12.5C14.67 12.5 14 13.17 14 14C14 14.83 14.67 15.5 15.5 15.5M7 3H17C18.11 3 19 3.9 19 5V7C20.11 7 21 7.9 21 9V19C21 20.11 20.11 21 19 21H7C4.79 21 3 19.21 3 17V7C3 4.79 4.79 3 7 3M17 7V5H7C5.9 5 5 5.9 5 7V7.54C5.59 7.2 6.27 7 7 7H17M5 17C5 18.11 5.9 19 7 19H19V9H7C5.9 9 5 9.9 5 11V17Z" />
+                                </svg>
+                                <p class="font-medium text-black">$15k/month</p>
+                            </div>
+                            <span>18 mins ago</span>
+                        </div>
+                    </div>
+
+                    <div class="p-4 bg-white rounded-2xl hover:shadow-md transition cursor-pointer">
+                        <div class="flex items-center gap-3 mb-2">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dropbox_Icon.svg/1200px-Dropbox_Icon.svg.png"
+                                alt="Dropbox" class="w-14 h-14 bg-dark-gray rounded-lg p-2" />
+                            <div class="flex flex-col ml-1 space-y-2 py-2">
+                                <h3 class="font-medium">Fullstack Developer</h3>
+                                <p class="text-neutral-400 text-sm">Dropbox</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2 text-sm text-gray-600 mb-2">
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">Fullstack</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">React</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">Node.js</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">Javascript</span>
+                        </div>
+                        <br>
+                        <div class="flex justify-between items-center text-sm text-gray-500">
+                            <div class="flex items-center justify-start space-x-2">
+                                <svg class="w-4 h-4 fill-current text-pink" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M15.5 15.5C16.33 15.5 17 14.83 17 14C17 13.17 16.33 12.5 15.5 12.5C14.67 12.5 14 13.17 14 14C14 14.83 14.67 15.5 15.5 15.5M7 3H17C18.11 3 19 3.9 19 5V7C20.11 7 21 7.9 21 9V19C21 20.11 20.11 21 19 21H7C4.79 21 3 19.21 3 17V7C3 4.79 4.79 3 7 3M17 7V5H7C5.9 5 5 5.9 5 7V7.54C5.59 7.2 6.27 7 7 7H17M5 17C5 18.11 5.9 19 7 19H19V9H7C5.9 9 5 9.9 5 11V17Z" />
+                                </svg>
+                                <p class="font-medium text-black">$9k/month</p>
+                            </div>
+                            <span>24 mins ago</span>
+                        </div>
+                    </div>
+
+                    <div class="p-4 bg-white rounded-2xl hover:shadow-md transition cursor-pointer">
+                        <div class="flex items-center gap-3 mb-2">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+                                alt="Apple" class="w-14 h-14 bg-dark-gray rounded-lg px-4 py-3" />
+                            <div class="flex flex-col ml-1 space-y-2 py-2">
+                                <h3 class="font-medium">IT Software Consultant</h3>
+                                <p class="text-neutral-400 text-sm">Apple</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2 text-sm text-gray-600 mb-2">
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">C#</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">SQL</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">Azure</span>
+                        </div>
+                        <br>
+                        <div class="flex justify-between items-center text-sm text-gray-500">
+                            <div class="flex items-center justify-start space-x-2">
+                                <svg class="w-4 h-4 fill-current text-pink" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M15.5 15.5C16.33 15.5 17 14.83 17 14C17 13.17 16.33 12.5 15.5 12.5C14.67 12.5 14 13.17 14 14C14 14.83 14.67 15.5 15.5 15.5M7 3H17C18.11 3 19 3.9 19 5V7C20.11 7 21 7.9 21 9V19C21 20.11 20.11 21 19 21H7C4.79 21 3 19.21 3 17V7C3 4.79 4.79 3 7 3M17 7V5H7C5.9 5 5 5.9 5 7V7.54C5.59 7.2 6.27 7 7 7H17M5 17C5 18.11 5.9 19 7 19H19V9H7C5.9 9 5 9.9 5 11V17Z" />
+                                </svg>
+                                <p class="font-medium text-black">$10k/month</p>
+                            </div>
+                            <span>1 hour ago</span>
+                        </div>
+                    </div>
+
+                    <div class="p-4 bg-white rounded-2xl hover:shadow-md transition cursor-pointer">
+                        <div class="flex items-center gap-3 mb-2">
+                            <img src="https://cdn.freebiesupply.com/images/large/2x/ibm-logo-black-transparent.png"
+                                alt="IBM" class="w-14 h-14 bg-dark-gray rounded-lg py-5 px-3" />
+                            <div class="flex flex-col ml-1 space-y-2 py-2">
+                                <h3 class="font-medium">.NET Developer</h3>
+                                <p class="text-neutral-400 text-sm">IBM</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2 text-sm text-gray-600 mb-2">
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">Backend</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">.NET</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">.NET CORE</span>
+                        </div>
+                        <br>
+                        <div class="flex justify-between items-center text-sm text-gray-500">
+                            <div class="flex items-center justify-start space-x-2">
+                                <svg class="w-4 h-4 fill-current text-pink" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M15.5 15.5C16.33 15.5 17 14.83 17 14C17 13.17 16.33 12.5 15.5 12.5C14.67 12.5 14 13.17 14 14C14 14.83 14.67 15.5 15.5 15.5M7 3H17C18.11 3 19 3.9 19 5V7C20.11 7 21 7.9 21 9V19C21 20.11 20.11 21 19 21H7C4.79 21 3 19.21 3 17V7C3 4.79 4.79 3 7 3M17 7V5H7C5.9 5 5 5.9 5 7V7.54C5.59 7.2 6.27 7 7 7H17M5 17C5 18.11 5.9 19 7 19H19V9H7C5.9 9 5 9.9 5 11V17Z" />
+                                </svg>
+                                <p class="font-medium text-black">$15k/month</p>
+                            </div>
+                            <span>2 hours ago</span>
+                        </div>
+                    </div>
+
+                    <div class="p-4 bg-white rounded-2xl hover:shadow-md transition cursor-pointer">
+                        <div class="flex items-center gap-3 mb-2">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png"
+                                alt="Facebook" class="w-14 h-14 bg-dark-gray rounded-lg p-2" />
+                            <div class="flex flex-col ml-1 space-y-2 py-2">
+                                <h3 class="font-medium">Platforms Engineer</h3>
+                                <p class="text-neutral-400 text-sm">Facebook</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2 text-sm text-gray-600 mb-2">
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">Devops</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">Ansible</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">Linux</span>
+                            <span class="bg-extra-light-gray px-2 py-1 rounded-full">Networks</span>
+                        </div>
+                        <br>
+                        <div class="flex justify-between items-center text-sm text-gray-500">
+                            <div class="flex items-center justify-start space-x-2">
+                                <svg class="w-4 h-4 fill-current text-pink" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M15.5 15.5C16.33 15.5 17 14.83 17 14C17 13.17 16.33 12.5 15.5 12.5C14.67 12.5 14 13.17 14 14C14 14.83 14.67 15.5 15.5 15.5M7 3H17C18.11 3 19 3.9 19 5V7C20.11 7 21 7.9 21 9V19C21 20.11 20.11 21 19 21H7C4.79 21 3 19.21 3 17V7C3 4.79 4.79 3 7 3M17 7V5H7C5.9 5 5 5.9 5 7V7.54C5.59 7.2 6.27 7 7 7H17M5 17C5 18.11 5.9 19 7 19H19V9H7C5.9 9 5 9.9 5 11V17Z" />
+                                </svg>
+                                <p class="font-medium text-black">$7k/month</p>
+                            </div>
+                            <span>1 day ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-sm p-6 flex flex-col h-full">
+            <img src="https://i.pinimg.com/originals/57/1c/af/571cafa3bbc8ea80de7e682003f73a62.png"
+            alt="Netflix" class="w-14 h-14 bg-dark-gray rounded-lg p-2" />
+            <div class="space-y-3 mt-4">
+                <h3 class="text-lg font-semibold">Backend .Net Developer</h3>
+                <p class="text-neutral-400 text-sm">Netflix</p>
+                <p class="bg-extra-light-pink text-pink rounded-full text-sm p-1 w-[125px]">+100 Applicants</p>
+            </div>
+            <hr class="mt-4 mb-6">
+            <div class="mb-4">
+                <h4 class="font-semibold">Description</h4>
+                <p class="text-sm text-gray-700 mt-2">Netflix is seeking a highly skilled and motivated Backend .NET Developer to join our talented engineering team. As a Backend .NET Developer, you will play crucial role... <span class="underline text-pink">read more</span></p>
+            </div>
+            <hr class="mt-4 mb-6">
+            <div class="mb-4">
+                <h4 class="font-semibold">Skills</h4>
+                <div class="flex flex-wrap gap-2 text-sm text-gray-600 mb-2">
+                    <span class="bg-extra-light-gray px-2 py-1 rounded-full">Fullstack</span>
+                    <span class="bg-extra-light-gray px-2 py-1 rounded-full">Angular</span>
+                    <span class="bg-extra-light-gray px-2 py-1 rounded-full">Azure</span>
+                    <span class="bg-extra-light-gray px-2 py-1 rounded-full">C#</span>
+                </div>
+            </div>
+            <hr class="mt-4 mb-6">
+            <div class="mb-6">
+                <h4 class="font-semibold">Based Salary</h4>
+                <p class="text-neutral-400">$13k/month</p>
+            </div>
+            <div class="flex-grow"></div>
+            <button class="w-full bg-pink text-white py-3 rounded-xl hober:bg-pink-500 transition">Apply now</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
