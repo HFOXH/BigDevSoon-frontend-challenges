@@ -165,3 +165,10 @@ Si tienes sugerencias o mejoras, ¡estaré encantado de leerlas! 😃
 - Imagen de Annie Spratt https://unsplash.com/es/fotos/hoja-verde-hX_hf2lPpUU en Unsplash.
 - Imagen de Galina N https://unsplash.com/es/fotos/green-succulent-in-teal-ceramic-vase-miziNqvJx5M en Unsplash.
 - Imagen de Mong Bui https://unsplash.com/es/fotos/foto-de-primer-plano-de-la-planta-de-serpiente-verde-en-maceta-NznxEfw9iVI en Unsplash.
+- Imagen de Min An https://www.pexels.com/photo/woman-in-v-neck-trumpet-sleeved-dress-1115697/ en Pexels.
+- Imagen de Moose Photos https://www.pexels.com/photo/smiling-woman-wearing-black-sweater-1587009/ en Pexels.
+- Imagen de Sebastian V. https://www.pexels.com/photo/man-in-black-full-zip-jacket-715546/ en Pexels.
+- Imagen de Pixabay https://www.pexels.com/photo/portrait-of-young-woman-247322/ en Pexels.
+- Imagen de Simon Robben https://www.pexels.com/photo/photo-of-a-man-wearing-black-leather-jacket-977796/ en Pexels.
+- Imagen de Pixabay https://www.pexels.com/photo/woman-in-white-top-posing-for-picture-413885/ en Pexels.
+- Imagen de Rifqi Ramadhan Rifqi Ramadhan en Pexels.

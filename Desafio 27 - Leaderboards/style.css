@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: 'Poppins';
+}
+
+.bg-main{
+    background-image: url('https://santic.netlify.app/assets/img-challenge/challenge27.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-green{
+    color: #32ff00;
+}
+
+.bg-green{
+    background-color: #32ff00;
+}
+
+.border-green{
+    --tw-border-opacity: 1;
+    border-color: #32ff00;
+}
+
+.bg-gray{
+    background-color: #292929;
+}
+
+.text-gray{
+    color: #292929;
+}

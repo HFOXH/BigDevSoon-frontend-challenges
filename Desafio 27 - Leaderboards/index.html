@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDevSoon Leaderboards challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main flex flex-col items-center justify-center min-h-screen">
+    <div class="bg-black space-y-4 shadow rounded-xl max-w-sm md:mx-w-md">
+        <div class="p-8">
+            <h1 class="text-white font-semibold text-xl text-center">Leaderboard</h1>
+            <div class="flex flex-wrap gap-2 text-white my-3">
+                <span class="cursor-pointer bg-black px-2 py-1 rounded-full">Today</span>
+                <span class="cursor-pointer bg-black px-2 py-1 rounded-full">Week</span>
+                <span class="cursor-pointer bg-gray px-2 py-1 rounded-full">Month</span>
+                <span class="cursor-pointer bg-black px-2 py-1 rounded-full">Year</span>
+            </div>
+        </div>
+
+        <div class="flex justify-center items-end gap-4 text-center mb-6 relative">
+            <i class="fa-solid fa-star absolute text-gray z-5 top-8 left-8"></i>
+            <i class="fa-solid fa-star absolute text-gray z-5 -top-3 left-[55px] text-sm"></i>
+            <i class="fa-solid fa-star absolute text-gray z-5 top-8 left-[95px] text-sm"></i>
+            <i class="fa-solid fa-star absolute text-gray z-5 -top-6 left-[100px] text-lg"></i>
+            <i class="fa-solid fa-star absolute text-gray z-5 top-8 right-8"></i>
+            <i class="fa-solid fa-star absolute text-gray z-5 -top-3 right-[55px] text-sm"></i>
+            <i class="fa-solid fa-star absolute text-gray z-5 top-8 right-[95px] text-sm"></i>
+            <i class="fa-solid fa-star absolute text-gray z-5 -top-6 right-[100px] text-lg"></i>
+            
+            <div class="flex flex-col items-center text-white">
+                <div class="relative">
+                    <span
+                        class="text-white font-bold mb-1 -top-[40px] absolute left-1/2 transform -translate-x-1/2">2</span>
+                    <div class="relative w-16 h-16">
+                        <div class="absolute inset-0 rounded-full bg-green blur-xl opacity-75"></div>
+                        <img src="https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="relative w-16 h-16 rounded-full border-4 border-green object-cover">
+                    </div>
+                    <div class="absolute -top-[20px] left-1/2 transform -translate-x-1/2">
+                        <i class="fas fa-caret-up text-green-500 text-xs"></i>
+                    </div>
+                </div>
+                <div class="bg-green text-black font-bold px-3 py-2 rounded-t-xl mt-4 w-20 pb-10">
+                    <div class="text-sm">Jane</div>
+                    <div class="text-lg font-black">10 032</div>
+                </div>
+            </div>
+            <div class="flex flex-col items-center text-white">
+                <div class="relative">
+                    <span
+                        class="text-white font-bold mb-1 -top-[50px] absolute left-1/2 transform -translate-x-1/2 text-2xl">👑</span>
+                    <div class="relative w-20 h-20">
+                        <div class="absolute inset-0 rounded-full bg-green blur-xl opacity-75"></div>
+                        <img src="https://images.pexels.com/photos/1115697/pexels-photo-1115697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="relative w-20 h-20 rounded-full border-4 border-green object-cover">
+                    </div>
+                    <div class="absolute -top-[20px] left-1/2 transform -translate-x-1/2">
+                        <i class="fas fa-caret-down text-white text-xs"></i>
+                    </div>
+                </div>
+                <div class="bg-green text-black font-bold px-3 py-2 rounded-t-xl mt-4 w-24 pb-16">
+                    <div class="text-sm">Blake</div>
+                    <div class="text-lg font-black">13 291</div>
+                </div>
+            </div>
+            <div class="flex flex-col items-center text-white">
+                <div class="relative">
+                    <span
+                        class="text-white font-bold mb-1 -top-[40px] absolute left-1/2 transform -translate-x-1/2">3</span>
+                    <div class="relative w-16 h-16">
+                        <div class="absolute inset-0 rounded-full bg-green blur-xl opacity-75"></div>
+                        <img src="https://images.pexels.com/photos/715546/pexels-photo-715546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            class="relative w-16 h-16 rounded-full border-4 border-green object-cover">
+                    </div>
+                    <div class="absolute -top-[20px] left-1/2 transform -translate-x-1/2">
+                        <i class="fas fa-caret-down text-white text-xs"></i>
+                    </div>
+                </div>
+                <div class="bg-green text-black font-bold px-3 py-2 rounded-t-xl mt-4 w-20 pb-6">
+                    <div class="text-sm">John</div>
+                    <div class="text-lg font-black">10 011</div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full overflow-hidden relative" style="margin-top: -50px;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#000" fill-opacity="1"
+                    d="M0,160L120,170.7C240,181,480,203,720,202.7C960,203,1200,181,1320,170.7L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+
+        <div class="space-y-1 text-white">
+            <div class="flex items-center justify-between bg-gray px-8 py-2">
+                <div class="flex items-center gap-3">
+                    <div class="flex flex-col items-center">
+                        <span class="font-bold text-white">4</span>
+                        <i class="fas fa-caret-up text-green-400 text-xs"></i>
+                    </div>
+                    <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="w-10 h-10 rounded-full object-cover">
+                    <span>Bradley</span>
+                </div>
+                <span class="text-green font-bold">10 004</span>
+            </div>
+
+            <div class="flex items-center justify-between bg-black px-8 py-2">
+                <div class="flex items-center gap-3">
+                    <div class="flex flex-col items-center">
+                        <span class="font-bold text-white">5</span>
+                        <i class="fas fa-caret-down text-red-500 text-xs"></i>
+                    </div>
+                    <img src="https://images.pexels.com/photos/247322/pexels-photo-247322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="w-10 h-10 rounded-full object-cover">
+                    <span>Katy</span>
+                </div>
+                <span class="text-green font-bold">9 921</span>
+            </div>
+
+            <div class="flex items-center justify-between bg-gray px-8 py-2">
+                <div class="flex items-center gap-3">
+                    <div class="flex flex-col items-center">
+                        <span class="font-bold text-white">6</span>
+                        <i class="fas fa-caret-down text-red-500 text-xs"></i>
+                    </div>
+                    <img src="https://images.pexels.com/photos/977796/pexels-photo-977796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="w-10 h-10 rounded-full object-cover">
+                    <span>Sam</span>
+                </div>
+                <span class="text-green font-bold">9 817</span>
+            </div>
+
+            <div class="flex items-center justify-between bg-black px-8 py-2">
+                <div class="flex items-center gap-3">
+                    <div class="flex flex-col items-center">
+                        <span class="font-bold text-white">7</span>
+                        <i class="fas fa-caret-down text-white text-xs"></i>
+                    </div>
+                    <img src="https://images.pexels.com/photos/413885/pexels-photo-413885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="w-10 h-10 rounded-full object-cover">
+                    <span>Alice</span>
+                </div>
+                <span class="text-green font-bold">9 754</span>
+            </div>
+
+            <div class="flex items-center justify-between bg-gray px-8 py-2 opacity-50 rounded-b-xl">
+                <div class="flex items-center gap-3">
+                    <div class="flex flex-col items-center">
+                        <span class="font-bold text-white">8</span>
+                        <i class="fas fa-caret-up text-green-400 text-xs"></i>
+                    </div>
+                    <img src="https://images.pexels.com/photos/862517/pexels-photo-862517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="w-10 h-10 rounded-full object-cover">
+                    <span>Joshua</span>
+                </div>
+                <span class="text-green font-bold">9 765</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
