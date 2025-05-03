@@ -172,3 +172,11 @@ Si tienes sugerencias o mejoras, ¡estaré encantado de leerlas! 😃
 - Imagen de Simon Robben https://www.pexels.com/photo/photo-of-a-man-wearing-black-leather-jacket-977796/ en Pexels.
 - Imagen de Pixabay https://www.pexels.com/photo/woman-in-white-top-posing-for-picture-413885/ en Pexels.
 - Imagen de Rifqi Ramadhan Rifqi Ramadhan en Pexels.
+- Imagen https://www.eternal-expat.com/wp-content/uploads/2022/08/things-to-do-in-playa-del-carmen-8-320x240.jpg.webp.
+- Imagen de Guzmán Barquín https://unsplash.com/es/fotos/casa-verde-azulado-gris-y-naranja-cerca-de-la-orilla-del-mar-durante-el-dia-txZsxZJNxnw en Unsplash.
+- Imagen de Matt Hardy https://www.pexels.com/photo/two-person-riding-blue-bodyboard-1533729/ en Pexels.
+- Imagen de Jess Loiterton https://www.pexels.com/photo/holiday-resort-and-tourists-in-the-sea-9259839/ en Pexels.
+- Imagen de Asad Photo Maldives https://images.pexels.com/photos/240526/pexels-photo-240526.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 en Pexels.
+- Imagen de Diego Orellano Soto https://www.pexels.com/photo/atardecer-peruano-28344981/ en Pexels.
+- Imagen de Mudassir Ali https://www.pexels.com/photo/aerial-shot-of-sea-1556797/ en Pexels.
+- Imagen de Min An https://www.pexels.com/photo/silhouette-of-mountain-near-the-body-of-water-photo-in-daytime-714633/ en Pexels.

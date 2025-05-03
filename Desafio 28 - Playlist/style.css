@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: 'Mulish';
+}
+
+.bg-main {
+    background-color: #dbdded;
+}
+
+.bg-blue {
+    background-color: #0f0f45;
+}
+
+.bg-purple {
+    background-color: #6462c4;
+}
+
+.bg-purple-dark {
+    background-color: #b1b1d7;
+}
+
+.text-purple {
+    color: #6462c4;
+}
+
+.text-purple-dark {
+    color: #b1b1d7;
+}
+
+.rounded-4xl {
+    border-radius: 2rem;
+}
