@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDevSoon Video Player challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main flex flex-col items-center justify-center min-h-screen">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 w-full max-w-7xl">
+        <div class="md:col-span-2">
+            <div class="relative">
+                <img src="https://maderasyrecreo.es/wp-content/uploads/2023/01/Diseno-sin-titulo-4.png" class="rounded-3xl w-full">
+                <div class="absolute bottom-4 w-[95%] bg-purple-gray rounded-3xl flex mx-3 items-center p-4 text-white space-x-4 justify-around">
+                    <button class="px-6 py-2 bg-purple rounded-md"><i class="fa-solid fa-circle text-xs"></i> LIVE</button>
+                    <i class="fa-solid fa-pause"></i>
+                    <div class="w-96 bg-gray-600 h-2 rounded-full overflow-hidden">
+                        <div class="h-full bg-white w-1/3 rounded-full"></div>
+                    </div>
+                    <p>12:21/30:28</p>
+                    <i class="fa-solid fa-expand"></i>
+                </div>
+            </div>
+            <br>
+            <div class="bg-purple-gray p-4 rounded-3xl flex text-white items-center justify-around">
+                <div class="flex items-center">
+                    <img src="https://images.pexels.com/photos/16346894/pexels-photo-16346894/free-photo-of-a-woman-with-her-hair-in-a-houndstooth-sweater.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="w-12 h-12 rounded-full object-cover">
+                    <div class="ml-4 space-y-1">
+                        <p class="font-semibold text-lg">Michael Harrell</p>
+                        <p class="text-xs">80.084 subscribes</p>
+                    </div>
+                </div>
+                <div class="flex space-x-4">
+                    <span class="flex space-x-2 items-center">
+                        <i class="fa-solid fa-eye"></i>
+                        <p>8.390 views</p>
+                    </span>
+                    <span class="flex space-x-2 items-center">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <p>456 likes</p>
+                    </span>
+                </div>
+                <div class="flex space-x-4">
+                    <button class="px-6 py-2 bg-purple-gray-light rounded-md"><i class="fa-solid fa-share-nodes"></i> Share</button>
+                    <button class="px-6 py-2 bg-purple rounded-md"><i class="fa-solid far fa-heart"></i> Like</button>
+                </div>
+            </div>
+        </div>
+        <div class="w-full">
+            <div class="bg-purple-gray py-4 px-8 rounded-3xl text-white mt-32">
+                <h3 class="font-semibold text-xl mb-4">Related videos</h3>
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-4">
+                        <img src="https://images.pexels.com/photos/1769553/pexels-photo-1769553.jpeg" class="w-30 h-24 rounded-2xl object-cover">
+                        <div class="space-y-1">
+                            <p class="font-semibold text-lg">Skateboarding For Beginners!</p>
+                            <p class="text-sm">James Tylor</p>
+                            <p class="text-sm">184.213 views • 2 years ago</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <img src="https://images.pexels.com/photos/373289/pexels-photo-373289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="w-30 h-24 rounded-2xl object-cover">
+                        <div class="space-y-1">
+                            <p class="font-semibold text-lg">10 Easy SkateTricks</p>
+                            <p class="text-sm">Paul James</p>
+                            <p class="text-sm">90.317 views • 1 years ago</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <img src="https://images.pexels.com/photos/165236/pexels-photo-165236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="w-30 h-24 rounded-2xl object-cover">
+                        <div class="space-y-1">
+                            <p class="font-semibold text-lg">Learning to Skateboard!</p>
+                            <p class="text-sm">Brandon Wilson</p>
+                            <p class="text-sm">800.984 views • 3 years ago</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <img src="https://images.pexels.com/photos/1018484/pexels-photo-1018484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="w-30 h-24 rounded-2xl object-cover">
+                        <div class="space-y-1">
+                            <p class="font-semibold text-lg">Learning to Skateboard!</p>
+                            <p class="text-sm">Brandon Wilson</p>
+                            <p class="text-sm">800.984 views • 3 years ago</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -180,3 +180,8 @@ Si tienes sugerencias o mejoras, ¡estaré encantado de leerlas! 😃
 - Imagen de Diego Orellano Soto https://www.pexels.com/photo/atardecer-peruano-28344981/ en Pexels.
 - Imagen de Mudassir Ali https://www.pexels.com/photo/aerial-shot-of-sea-1556797/ en Pexels.
 - Imagen de Min An https://www.pexels.com/photo/silhouette-of-mountain-near-the-body-of-water-photo-in-daytime-714633/ en Pexels.
+- Imagen https://maderasyrecreo.es/wp-content/uploads/2023/01/Diseno-sin-titulo-4.png en maderasyrecreo.
+- Imagen de Khoa Huỳnh https://www.pexels.com/photo/gray-and-black-skateboard-165236/ en Pexels.
+- Imagen de Messala Ciulla https://www.pexels.com/photo/shallow-focus-photography-of-brown-and-blue-skateboard-1018484/ en Pexels.
+- Imagen de Pixabay https://www.pexels.com/photo/woman-in-black-and-white-long-sleeve-shirt-riding-a-skateboard-on-a-freeway-road-373289/ en Pexels.
+- Imagen de Zachary DeBottis https://www.pexels.com/photo/man-doing-a-skateboard-trick-1769553/ en Pexels.
