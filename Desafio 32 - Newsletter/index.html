@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDevSoon Newsletter challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main flex flex-col items-center justify-center min-h-screen">
+    <div class="bg-white px-8 py-24 space-y-4 shadow rounded-xl flex flex-col items-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div class="w-full">
+                <img src="https://santic.netlify.app/assets/img-challenge/newsletter.png" class="w-[60%] mx-auto">
+            </div>
+            <div class="w-full max-w-[70%] mx-auto md:mx-0">
+                <h2 class="text-lg md:text-[24px] font-extrabold text-gray-800 mb-2">Sign up to our</h2>
+                <h1 class="text-[30px] md:text-[60px] font-extrabold text-gray-900 mb-6 leading-[1]">Newsletter</h1>
+                <p class="text-gray-800 mb-6">Subscribe to our newsletter and stay updated.</p>
+                <div class="relative">
+                    <i class="fa-solid fa-envelope text-gray-400 absolute left-3 top-1/2 transform -translate-y-1/2"></i>
+                    <input type="email" placeholder="Your email" class="pl-10 pr-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 w-full">
+                </div>
+                <button type="submit" class="mt-6 mb-10 bg-yellow hover:bg-yellow-500 text-black font-semibold px-6 py-2 rounded-md transition-all w-full">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
