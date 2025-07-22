@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDevSoon User Profile challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main flex flex-col items-center justify-center min-h-screen">
+    <div class="bg-white rounded-lg w-[400px] shadow-2xl">
+        <div class="flex items-center justify-between gap-3 p-4">
+            <div class="flex items-center gap-3">
+                <img src="https://api.dicebear.com/9.x/big-smile/svg?seed=Sadie&eyes=normal&hair=shortHair&hairColor=220f00&mouth=teethSmile"
+                    alt="avatar" class="w-12 h-12 rounded-full bg-yellow" />
+                <p class="font-bold text-lg">David</p>
+                <span
+                    class="bg-purple text-purple text-xs font-bold px-2 py-0.5 rounded-md border-purple-700 border">PRO</span>
+            </div>
+            <i class="fa-solid fa-ellipsis"></i>
+        </div>
+    </div>
+    <div class="bg-white rounded-lg w-[400px] shadow-2xl mt-8">
+        <div class="flex items-center gap-3 p-4">
+            <img src="https://api.dicebear.com/9.x/big-smile/svg?seed=Sadie&eyes=normal&hair=shortHair&hairColor=220f00&mouth=teethSmile"
+                alt="avatar" class="w-12 h-12 rounded-full bg-yellow" />
+            <div>
+                <p class="font-bold text-lg">David <span
+                        class="bg-purple text-purple text-xs font-bold px-2 py-0.5 rounded-md border-purple-700 border">PRO</span>
+                </p>
+                <p class="text-sm text-gray-500">david@gmail.com</p>
+            </div>
+        </div>
+        <hr>
+        <ul class="my-2 space-y-1 text-sm text-black mx-2">
+            <li class="flex items-center gap-2 cursor-pointer hover:bg-gray-100 p-3 rounded-md font-medium">
+                <i class="fa-solid fa-sliders"></i> Profile Settings
+            </li>
+            <li class="flex items-center gap-2 cursor-pointer bg-gray-100 hover:bg-gray-100 p-3 rounded-md font-medium">
+                <i class="fa-solid fa-question"></i> Help Center
+            </li>
+            <li class="flex items-center gap-2 cursor-pointer hover:bg-gray-100 p-3 rounded-md font-medium">
+                <i class="fa-solid fa-wallet"></i> Billings
+            </li>
+            <li class="flex items-center gap-2 cursor-pointer hover:bg-gray-100 p-3 rounded-md font-medium">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i> Upgrade Plan
+            </li>
+        </ul>
+        <hr>
+        <ul class="my-2 space-y-1 text-sm text-black mx-2 pb-2">
+            <li class="flex items-center gap-2 cursor-pointer hover:bg-gray-100 p-3 rounded-md font-medium">
+                <i class="fa-solid fa-right-from-bracket"></i> Sign Out
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
