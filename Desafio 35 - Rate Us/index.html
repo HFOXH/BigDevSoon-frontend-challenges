@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDevSoon Rate Us challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main flex flex-col items-center justify-center min-h-screen">
+    <div class="bg-white rounded-lg w-[600px] shadow-2xl flex flex-col items-center justify-center p-6">
+        <h1 class="text-2xl font-bold">Rate Us!</h1>
+        <p class="text-gray-600 mb-6">Tell us about your experience</p>
+        <div id="rating" class="flex space-x-6 mb-4">
+            <div class="flex flex-col items-center">
+                <div class="emoji-face">😵</div>
+                <p class="mt-4 text-sm text-gray-700">Terrible</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="emoji-face">☹️</div>
+                <p class="mt-4 text-sm text-gray-700">Bad</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="emoji-face active">🙂</div>
+                <p class="mt-4 text-sm text-gray-700">Okey</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="emoji-face">☺️</div>
+                <p class="mt-4 text-sm text-gray-700">Good</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="emoji-face">😃</div>
+                <p class="mt-4 text-sm text-gray-700">Great</p>
+            </div>
+        </div>
+        <button class="text-red-500 hover:underline">Skip</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

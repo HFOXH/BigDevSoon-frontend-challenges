@@ -1,0 +1,23 @@
+.bg-main{
+    background-color: #ffc279;
+}
+
+.emoji-face{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 100%;
+    font-size: 5rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: transform 0.3s ease, background-color 0.3s ease, filter 0.3s ease;
+    transform-style: preserve-3d;
+}
+
+.emoji-face:hover, .emoji-face.active{
+    background-color: #facc15;
+    filter: grayscale(0);
+    transform: rotateX(10deg) rotateY(10deg) scale(1.1);
+}
