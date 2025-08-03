@@ -185,3 +185,4 @@ Si tienes sugerencias o mejoras, ¡estaré encantado de leerlas! 😃
 - Imagen de Messala Ciulla https://www.pexels.com/photo/shallow-focus-photography-of-brown-and-blue-skateboard-1018484/ en Pexels.
 - Imagen de Pixabay https://www.pexels.com/photo/woman-in-black-and-white-long-sleeve-shirt-riding-a-skateboard-on-a-freeway-road-373289/ en Pexels.
 - Imagen de Zachary DeBottis https://www.pexels.com/photo/man-doing-a-skateboard-trick-1769553/ en Pexels.
+- Imagen de Juna Xu https://bedthreads.com.au/blogs/journal/best-full-moon-rituals-what-to-do?redirected=true.

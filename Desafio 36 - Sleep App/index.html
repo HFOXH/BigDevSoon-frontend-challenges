@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDevSoon Sleep App challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main flex flex-col items-center justify-center min-h-screen">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-24">
+        <div class="w-full bg-purple rounded-4xl">
+            <div class="relative max-w-[400px] h-[450px] bg-cover bg-center rounded-b-[50%] overflow-hidden rounded-t-4xl"
+                style="background-image: url('https://cdn.sanity.io/images/q0x34hon/production/03fe81d1165cdce3bf85b981e38292d65f96b7b3-749x1049.jpg?fm=webp&w=1200');">
+            </div>
+            <br>
+            <div class="w-[400px] max-w-[400px] rounded-4xl relative z-10 -mt-14 pt-16">
+                <div class="text-center p-6">
+                    <h2 class="text-2xl font-bold mb-2 text-white">Track your sleep</h2>
+                    <p class="text-sm mb-6 text-neutral-300">Upgrade your sleep quality with our cutting-edge tracking
+                        app. Experience deeper rest and wake up revitalized. Sleep better. live better.</p>
+                    <button class="bg-orange text-white font-semibold w-full rounded-md py-2 mb-4">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full">
+            <div class="relative w-[400px] h-full overflow-hidden rounded-4xl bg-purple z-0 p-6 -mt-14">
+                <div class="flex justify-between items-center">
+                    <i class="fa-solid fa-bars bg-light-purple p-2 text-white rounded-md"></i>
+                    <img src="https://santic.netlify.app/assets/img-challenge/Fish.png" alt="fish" class="w-8">
+                </div>
+                <br>
+                <div class="flex justify-center items-center">
+                    <div class="flex justify-between items-center space-x-6">
+                        <i class="text-white fa-regular fas fa-arrow-circle-left"></i>
+                        <div class="text-white text-center">
+                            <p class="font-medium">Wednesday</p>
+                            <p class="text-xs text-neutral-300">4 March 2024</p>
+                        </div>
+                        <i class="text-white fa-regular fas fa-arrow-circle-right"></i>
+                    </div>
+                </div>
+                <br>
+                <div class="flex justify-center my-6">
+                    <div class="relative w-44 h-44">
+                        <!-- Anillo exterior -->
+                        <div class="absolute inset-0">
+                            <svg class="w-full h-full" viewBox="0 0 36 36">
+                                <circle class="text-purple-500" stroke="currentColor" stroke-width="4" fill="none"
+                                    cx="18" cy="18" r="16" />
+                            </svg>
+                        </div>
+                        <!-- Anillo interior con progreso -->
+                        <div class="absolute inset-4">
+                            <svg class="w-full h-full" viewBox="0 0 36 36">
+                                <!-- Anillo de fondo -->
+                                <path class="text-purple-900" stroke="currentColor" stroke-width="4" fill="none" d="M18 5
+                                   a 13 13 0 0 1 0 26
+                                   a 13 13 0 0 1 0 -26" />
+                                <!-- Anillo de progreso -->
+                                <path class="text-pink-500" stroke="currentColor" stroke-width="4"
+                                    stroke-dasharray="70, 100" fill="none" d="M18 5
+                                   a 13 13 0 0 1 0 26
+                                   a 13 13 0 0 1 0 -26" />
+                            </svg>
+                        </div>
+                        <!-- Texto en el centro -->
+                        <div class="absolute inset-0 flex flex-col items-center justify-center text-white">
+                            <span class="text-3xl font-extrabold">90</span>
+                            <span class="text-xs">Sleep score</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="flex items-center justify-normal w-full space-x-4">
+                    <div class="rounded-lg bg-light-purple w-1/2 p-2">
+                        <div class="flex items-center justify-between text-neutral-300">
+                            <p>Sleep time</p>
+                            <i class="fa-solid fa-circle-info"></i>
+                        </div>
+                        <p class="text-white text-3xl font-bold my-2">8<span class="text-sm font-normal">h</span>21<span
+                                class="text-sm font-normal">m</span></p>
+                        <div class="flex items-center space-x-1 text-neon-green text-sm">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <p>Normal</p>
+                        </div>
+                    </div>
+                    <div class="rounded-lg bg-light-purple w-1/2 p-2">
+                        <div class="flex items-center justify-between text-neutral-300">
+                            <p>Sleep quality</p>
+                            <i class="fa-solid fa-circle-info"></i>
+                        </div>
+                        <p class="text-white text-3xl font-bold my-2">92<span class="text-sm font-normal">%</span></p>
+                        <div class="flex items-center space-x-1 text-neon-yellow text-sm">
+                            <i class="fa-solid fa-star"></i>
+                            <p>Excelente</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="flex space-x-1 h-[50px]">
+                    <div class="rounded bg-blue-green w-[10%]"></div>
+                    <div class="rounded bg-blue w-[20%]"></div>
+                    <div class="rounded bg-blue-green w-[5%]"></div>
+                    <div class="rounded bg-dark-orange w-[10%]"></div>
+                    <div class="rounded bg-blue w-[35%]"></div>
+                    <div class="rounded bg-dark-orange w-[3%]"></div>
+                    <div class="rounded bg-blue w-[2%]"></div>
+                    <div class="rounded bg-blue-green w-[12%]"></div>
+                </div>
+                <div class="flex justify-between items-center mt-2 text-white text-sm">
+                    <div class="flex items-center space-x-2">
+                        <i class="fa-solid fa-moon"></i>
+                        <p>11:24 PM</p>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <i class="fa-solid fa-sun"></i>
+                        <p>7:45 AM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
