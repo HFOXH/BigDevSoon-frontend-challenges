@@ -83,6 +83,72 @@ Diseño de Recipe con HTML
 ```HTML y CSS```   
 (🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2020%20-%20Card%20Wallet))
 
+✅ **21 - Pricing Plans**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2021%20-%20Pricing%20Plans))
+
+✅ **22 - Messages**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2022%20-%20Messages))
+
+✅ **23 - Home Page**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2023%20-%20Home%20Page))
+
+✅ **24 - Movie Ticket**   
+```HTML, JS y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2024%20-%20Movie%20Ticket))
+
+✅ **25 - Meeting Schedule**   
+```HTML, JS y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2025%20-%20Meeting%20Schedule))
+
+✅ **26 - Job Board**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2026%20-%20Job%20Board))
+
+✅ **27 - Leaderboards**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2027%20-%20Leaderboards))
+
+✅ **28 - Playlist**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2028%20-%20Playlist))
+
+✅ **29 - Video Player**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2029%20-%20Video%20Player))
+
+✅ **30 - Invoices**   
+```HTML, JS y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2030%20-%20Invoices))
+
+✅ **31 - Dashboard**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2031%20-%20Dashboard))
+
+✅ **32 - Newsletter**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2032%20-%20Newsletter))
+
+✅ **33 - Brand Visualizer**   
+```HTML, JS y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2033%20-%20Brand%20Visualizer))
+
+✅ **34 - User Profile**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2034%20-%20User%20Profile))
+
+✅ **35 - Rate Us**   
+```HTML, JS y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2035%20-%20Rate%20Us))
+
+✅ **36 - Sleep App**   
+```HTML y CSS```   
+(🔗 [Ver solución](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2036%20-%20Sleep%20App))
+
+
+
 ✏️ Próximamente más desafíos...  
 
 ## 🚀 Tecnologías usadas  
