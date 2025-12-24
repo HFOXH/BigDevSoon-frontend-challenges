@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Our unique tag to identify the solution -->
+  <bds />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BigDevSoon Explore Flights challenge</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- TailwindCSS for styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main flex flex-col items-center justify-center min-h-screen">
+  <div class="bg-white text-gray-800 rounded-tl-xl max-w-[310px] overflow-hidden">
+    <div class="flex items-center">
+      <button class="tab-btn tab-active" data-tab="flight">
+        <i class="fa-solid fa-plane"></i> Flight
+      </button>
+      <button class="tab-btn" data-tab="hotel">
+        <i class="fa-solid fa-hotel"></i> Hotel
+      </button>
+      <button class="tab-btn" data-tab="flight">
+        <i class="fa-solid fa-car"></i> Rent a car
+      </button>
+    </div>
+  </div>
+  <div class="bg-white text-gray-800 p-8 space-y-4 shadow rounded-tl-none rounded-xl">
+    <h2 class="text-2xl font-bold text-gray-800">Discover your next dream destination</h2>
+
+    <div class="flex gap-6 text-sm">
+      <label class="flex items-center gap-2 cursor-pointer">
+        <input type="radio" name="trip" class="accent-purple-700">Round Trip
+      </label>
+      <label class="flex items-center gap-2 cursor-pointer">
+        <input type="radio" name="trip" checked class="accent-purple-700">One way
+      </label>
+      <label class="flex items-center gap-2 cursor-pointer">
+        <input type="radio" name="trip" class="accent-purple-700">Multi-city
+      </label>
+    </div>
+
+    <div class="bg-neutral-400 p-1 rounded-lg flex items-center space-x-2">
+      <div class="flex items-center gap-3 border rounded-xl px-4 py-3 bg-white">
+        <i class="fa-solid fa-plane-departure text-[12px] text-neutral-400"></i>
+        <input type="text" placeholder="Where from?" class="w-full outline-none text-sm">
+      </div>
+
+      <div class="w-8 h-8 flex items-center justify-center rounded-full px-4 py-3 bg-white">
+        <i class="fa-solid fa-arrow-right-arrow-left text-[12px]"></i>
+      </div>
+
+      <div class="flex items-center gap-3 border rounded-xl px-4 py-3 bg-white">
+        <i class="fa-solid fa-plane-arrival text-[12px] text-neutral-400"></i>
+        <input type="text" placeholder="Where to?" class="w-full outline-none text-sm">
+      </div>
+
+      <div class="flex items-center gap-3 border rounded-xl px-4 py-3 bg-white">
+        <i class="fa-solid fa-calendar text-[12px] text-neutral-400"></i>
+        <input type="date" class="w-full outline-none text-sm">
+      </div>
+
+      <div class="w-12 h-12 flex items-center justify-center rounded-xl px-4 py-3 bg-white">
+        <i class="fa-solid fa-times text-[12px]"></i>
+      </div>
+    </div>
+
+    <div class="flex items-center justify-between">
+      <button class="text-purple text-sm">Add a Flight</button>
+      <button class="bg-purple-light text-sm text-white px-6 py-3 rounded-xl font-semibold">
+        <i class="fa-solid fa-plane"></i> Add a Flight</button>
+    </div>
+
+  </div>
+</body>
+
+</html>

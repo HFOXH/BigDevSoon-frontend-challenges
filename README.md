@@ -186,3 +186,4 @@ Si tienes sugerencias o mejoras, ¡estaré encantado de leerlas! 😃
 - Imagen de Pixabay https://www.pexels.com/photo/woman-in-black-and-white-long-sleeve-shirt-riding-a-skateboard-on-a-freeway-road-373289/ en Pexels.
 - Imagen de Zachary DeBottis https://www.pexels.com/photo/man-doing-a-skateboard-trick-1769553/ en Pexels.
 - Imagen de Juna Xu https://bedthreads.com.au/blogs/journal/best-full-moon-rituals-what-to-do?redirected=true.
+- Imagen de Viktor Mogilat https://www.pexels.com/es-es/foto/nubes-blancas-y-cielo-azul-5668598/ en Pexels.
