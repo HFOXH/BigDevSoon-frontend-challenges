@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    font-family: 'League Spartan';
+}
+
+.bg-main {
+    background-image: url("https://santic.netlify.app/assets/img-challenge/MusicFestival.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-lime {
+    background-color: #7DFF5D;
+}
+
+.text-lime {
+    color: #7DFF5D;
+}
+
+.border-lime {
+    border-color: #7DFF5D;
+    border-width: 2px;
+    padding: 4px 16px 0;
+}
