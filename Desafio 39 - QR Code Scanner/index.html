@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDevSoon QR Code Scanner challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main flex flex-col items-center justify-center min-h-screen">
+    <div class="grid grid-cols-1 md:grid-cols-1 gap-24">
+        <div class="w-full">
+            <div class="relative w-[400px] h-[450px] overflow-hidden rounded-4xl bg-black z-0 rounded-4xl">
+                <div class="flex justify-start items-center">
+                    <i class="fa-solid fa-chevron-left text-white ml-6"></i>
+                    <p class="my-8 text-center font-bold text-white ml-24 text-[24px]">Scan QR Code</p>
+                </div>
+                <p class="text-white text-center max-w-[300px] mx-auto text-[16px] font-semibold">Position the QR code
+                    within the frame for fast scanning. Minimize shaking to expedite results.</p>
+            </div>
+            <div class="w-[400px] bg-white rounded-4xl relative z-10 bg-white p-6 -mt-48">
+                <img src="https://santic.netlify.app/assets/img-challenge/qr_code_scanner.png">
+                <button class="bg-main-btn block w-full text-black font-semibold py-3 rounded-md mt-6 mb-12">Scan QR
+                    Code</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
