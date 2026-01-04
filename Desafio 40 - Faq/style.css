@@ -1,0 +1,12 @@
+.bg-main{
+    background-color: #32aaaf;
+}
+
+.box-shadow-new{
+    box-shadow: -1px 3px 15px 3px rgba(0, 0, 0, 0.158);
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #32aaaf 0%, #32aaaf 30%, #f2f2f2 30%, #f2f2f2 100%);
+}
