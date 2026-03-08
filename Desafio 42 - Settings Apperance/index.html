@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Our unique tag to identify the solution -->
+  <bds />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BigDevSoon Settings Appearance challenge</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- TailwindCSS for styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main flex flex-col items-center justify-center min-h-screen">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
+    <div class="w-full">
+      <div class="bg-white space-y-4 shadow rounded-xl max-w-md md:max-w-lg relative p-4">
+        <div class="flex justify-between items-center mt-4">
+          <h2 class="font-bold">Settings</h2>
+          <i class="fa-solid fa-x"></i>
+        </div>
+
+        <hr>
+        <div class="flex justify-start items-center space-x-4 text-sm">
+          <p class="font-semibold text-neutral-500">Profile</p>
+          <p class="font-semibold text-neutral-500">Notifications</p>
+          <p class="font-semibold text-purple underline">Appearance</p>
+          <p class="font-semibold text-neutral-500">Account</p>
+        </div>
+
+        <div class="flex justify-between items-center space-x-4">
+          <div>
+            <h2 class="font-semibold">Language</h2>
+            <p class="text-sm text-neutral-500">Select the language of the application</p>
+          </div>
+          <select class="border rounded-md px-4 py-2">
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+          </select>
+        </div>
+
+        <div>
+          <h2 class="font-semibold">Interface theme</h2>
+          <p class="text-sm text-neutral-500">Customise your application theme</p>
+        </div>
+
+        <div class="grid grid-cols-2 gap-2">
+          <div>
+            <div class="relative bg-neutral-300 w-[180px] h-[130px] rounded-lg p-4 border-neon-green border-4">
+              <div
+                class="absolute -top-3 -right-3 bg-neon-green text-white w-6 h-6 rounded-full font-bold flex items-center justify-center">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="bg-white w-4 h-4 rounded-full inline-block flex-shrink-0"></span>
+                <span class="bg-white w-full h-4 rounded"></span>
+              </div>
+              <div class="bg-white w-full h-8 rounded mt-2"></div>
+              <div class="flex items-center gap-2 mt-2">
+                <span class="bg-white w-1/2 h-8 rounded"></span>
+                <span class="bg-white w-1/2 h-8 rounded"></span>
+              </div>
+            </div>
+            <p class="font-medium text-sm mt-2">Light theme</p>
+          </div>
+          <div>
+            <div class="relative bg-dark w-[180px] h-[130px] rounded-lg p-4">
+              <div class="flex items-center gap-2">
+                <span class="bg-dark-contrast w-4 h-4 rounded-full inline-block flex-shrink-0"></span>
+                <span class="bg-dark-contrast w-full h-4 rounded"></span>
+              </div>
+              <div class="bg-dark-contrast w-full h-8 rounded mt-2"></div>
+              <div class="flex items-center gap-2 mt-2">
+                <span class="bg-dark-contrast w-1/2 h-8 rounded"></span>
+                <span class="bg-dark-contrast w-1/2 h-8 rounded"></span>
+              </div>
+            </div>
+            <p class="font-medium text-sm mt-2">Dark theme</p>
+          </div>
+        </div>
+
+        <div class="flex justify-between items-center space-x-4">
+          <div>
+            <h2 class="font-semibold">Accent color</h2>
+            <p class="text-sm text-neutral-500">Select your application accent color</p>
+          </div>
+          <div class="flex gap-3">
+            <input type="radio" name="accent" id="blue" class="w-4 h-4 accent-blue-600">
+            <input type="radio" name="accent" id="blue" class="w-4 h-4 accent-green-400">
+            <input type="radio" name="accent" id="blue" class="w-4 h-4 accent-pink-600">
+            <input type="radio" name="accent" id="blue" class="w-4 h-4 accent-orange-400">
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="flex items-center justify-between">
+          <button class="text-sm text-gray-400 font-medium">
+            <i class="fa-solid fa-arrow-rotate-left text-xs"></i> reset the default
+          </button>
+
+          <div class="flex items-center justify-between gap-2">
+            <button class="text-sm bg-gray-300 text-neutral-500 font-medium px-4 py-2 rounded">Cancel</button>
+            <button class="text-sm bg-blue-500 text-white font-medium px-4 py-2 rounded">Save Preferences</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full mt-12">
+      <div class="bg-dark space-y-4 shadow rounded-xl max-w-md md:max-w-lg relative p-4">
+        <div class="flex justify-between items-center mt-4">
+          <h2 class="font-bold text-white">Settings</h2>
+          <i class="fa-solid fa-x text-white"></i>
+        </div>
+
+        <hr>
+        <div class="flex justify-start items-center space-x-4 text-sm">
+          <p class="font-semibold text-neutral-500">Profile</p>
+          <p class="font-semibold text-neutral-500">Notifications</p>
+          <p class="font-semibold text-purple-light underline">Appearance</p>
+          <p class="font-semibold text-neutral-500">Account</p>
+        </div>
+
+        <div class="flex justify-between items-center space-x-4">
+          <div>
+            <h2 class="font-semibold text-white">Language</h2>
+            <p class="text-sm text-neutral-500">Select the language of the application</p>
+          </div>
+          <select class="border rounded-md px-4 py-2">
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+          </select>
+        </div>
+
+        <div>
+          <h2 class="font-semibold text-white">Interface theme</h2>
+          <p class="text-sm text-neutral-500">Customise your application theme</p>
+        </div>
+
+        <div class="grid grid-cols-2 gap-2">
+          <div>
+            <div class="relative bg-neutral-300 w-[180px] h-[130px] rounded-lg p-4">
+              <div class="flex items-center gap-2">
+                <span class="bg-white w-4 h-4 rounded-full inline-block flex-shrink-0"></span>
+                <span class="bg-white w-full h-4 rounded"></span>
+              </div>
+              <div class="bg-white w-full h-8 rounded mt-2"></div>
+              <div class="flex items-center gap-2 mt-2">
+                <span class="bg-white w-1/2 h-8 rounded"></span>
+                <span class="bg-white w-1/2 h-8 rounded"></span>
+              </div>
+            </div>
+            <p class="font-medium text-sm text-white mt-2">Light theme</p>
+          </div>
+          <div>
+            <div class="relative bg-dark w-[180px] h-[130px] rounded-lg p-4 border-neon-green border-4">
+              <div
+                class="absolute -top-3 -right-3 bg-neon-green text-white w-6 h-6 rounded-full font-bold flex items-center justify-center">
+                <i class="fa-solid fa-check"></i>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="bg-dark-contrast w-4 h-4 rounded-full inline-block flex-shrink-0"></span>
+                <span class="bg-dark-contrast w-full h-4 rounded"></span>
+              </div>
+              <div class="bg-dark-contrast w-full h-8 rounded mt-2"></div>
+              <div class="flex items-center gap-2 mt-2">
+                <span class="bg-dark-contrast w-1/2 h-8 rounded"></span>
+                <span class="bg-dark-contrast w-1/2 h-8 rounded"></span>
+              </div>
+            </div>
+            <p class="font-medium text-sm text-white mt-2">Dark theme</p>
+          </div>
+        </div>
+
+        <div class="flex justify-between items-center space-x-4">
+          <div>
+            <h2 class="font-semibold text-white">Accent color</h2>
+            <p class="text-sm text-neutral-500">Select your application accent color</p>
+          </div>
+          <div class="flex gap-3">
+            <input type="radio" name="accent" id="blue" class="w-4 h-4 accent-blue-600">
+            <input type="radio" name="accent" id="blue" class="w-4 h-4 accent-green-400">
+            <input type="radio" name="accent" id="blue" class="w-4 h-4 accent-pink-600">
+            <input type="radio" name="accent" id="blue" class="w-4 h-4 accent-orange-400">
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="flex items-center justify-between">
+          <button class="text-sm text-gray-400 font-medium">
+            <i class="fa-solid fa-arrow-rotate-left text-xs"></i> reset the default
+          </button>
+
+          <div class="flex items-center justify-between gap-2">
+            <button class="text-sm bg-gray-300 text-neutral-500 font-medium px-4 py-2 rounded">Cancel</button>
+            <button class="text-sm bg-purple-light text-white font-medium px-4 py-2 rounded">Save Preferences</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
