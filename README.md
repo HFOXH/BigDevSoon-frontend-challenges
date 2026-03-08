@@ -67,6 +67,12 @@ Además, está abierto para la comunidad. Puedes explorar, reutilizar o adaptar 
 | 34 | User Profile | HTML, CSS | [Ver](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2034%20-%20User%20Profile) | |
 | 35 | Rate Us | HTML, CSS, JS | [Ver](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2035%20-%20Rate%20Us) | |
 | 36 | Sleep App | HTML, CSS | [Ver](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2036%20-%20Sleep%20App) | |
+| 37 | Explore Flights | HTML, CSS | [Ver](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2037%20-%20Explore%20Flights) | |
+| 38 | Music Festival | HTML, CSS | [Ver](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2038%20-%20Music%20Festival) | |
+| 39 | QR Code Scanner | HTML, CSS | [Ver](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2039%20-%20QR%20Code%20Scanner) | |
+| 40 | FAQ | HTML, CSS | [Ver](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2040%20-%20Faq) | |
+| 41 | Create workspace | HTML, CSS | [Ver](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2041%20-%20Create%20Workspace) | |
+| 42 | Settings Appearance | HTML, CSS | [Ver](https://github.com/HFOXH/BigDevSoon-frontend-challenges/tree/main/Desafio%2042%20-%20Settings%20Apperance) | |
 
 ## 💡 Cómo usar este repo  
 1. Clona el repositorio:  
