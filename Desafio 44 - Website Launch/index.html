@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Our unique tag to identify the solution -->
+    <bds />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigDevSoon Website Launch challenge</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-main h-screen w-full flex justify-center bg-cover bg-center pt-24">
+    <div class="text-center w-full px-6">
+        <h1 class="text-4xl md:text-6xl font-semibold tracking-[0.3em] mb-14 text-gray-900">
+            WE'RE LAUNCHING SOON
+        </h1>
+
+        <div class="max-w-4xl mx-auto backdrop-blur-lg bg-white/30 border border-white/40 rounded-3xl p-12 shadow-2xl">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
+                <div class="relative flex items-center justify-center">
+                    <p id="days" class="text-5xl md:text-6xl font-bold text-gray-900">00</p>
+                    <span class="absolute tracking-[0.2em] text-sm text-white pt-1">DAYS</span>
+                </div>
+                <div class="relative flex items-center justify-center">
+                    <p id="hours" class="text-5xl md:text-6xl font-bold text-gray-900">00</p>
+                    <span class="absolute tracking-[0.2em] text-sm text-white pt-1">HOURS</span>
+                </div>
+                <div class="relative flex items-center justify-center">
+                    <p id="minutes" class="text-5xl md:text-6xl font-bold text-gray-900">00</p>
+                    <span class="absolute tracking-[0.2em] text-sm text-white pt-1">MINUTES</span>
+                </div>
+                <div class="relative flex items-center justify-center">
+                    <p id="seconds" class="text-5xl md:text-6xl font-bold text-gray-900">00</p>
+                    <span class="absolute tracking-[0.2em] text-sm text-white pt-1">SECONDS</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
