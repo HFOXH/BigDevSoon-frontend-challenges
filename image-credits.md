@@ -79,3 +79,8 @@
 - Imagen de Zachary DeBottis https://www.pexels.com/photo/man-doing-a-skateboard-trick-1769553/ en Pexels.
 - Imagen de Juna Xu https://bedthreads.com.au/blogs/journal/best-full-moon-rituals-what-to-do?redirected=true.
 - Imagen de Viktor Mogilat https://www.pexels.com/es-es/foto/nubes-blancas-y-cielo-azul-5668598/ en Pexels.
+- Imagen de Binyamin Mellish https://images.pexels.com/photos/186076/pexels-photo-186076.jpeg en Pexels.
+- Imagen de Pixabay https://images.pexels.com/photos/163439/football-american-football-quarterback-runner-163439.jpeg en Pexels.
+- https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Chicago_Bears_logo_primary.svg/250px-Chicago_Bears_logo_primary.svg.png
+- https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Arizona_Cardinals_logo.svg/200px-Arizona_Cardinals_logo.svg.png
+- https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Jacksonville_Jaguars_logo.svg/250px-Jacksonville_Jaguars_logo.svg.png
